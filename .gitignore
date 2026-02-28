@@ -1,0 +1,10 @@
+# Dependências - serão instaladas automaticamente no Netlify
+node_modules/
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos locais de desenvolvimento
+*.log
+*.bat

@@ -1,0 +1,305 @@
+<!doctype html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Electric Move Guarda - Veículos Elétricos e Híbridos</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <nav class="nav container">
+        <a href="#inicio" class="logo">
+          <img src="Logo2.png" alt="Electric Move Guarda" />
+        </a>
+        <ul class="nav-links">
+          <li><a href="#inicio">Início</a></li>
+          <li><a href="#sobre">Sobre Nós</a></li>
+          <li><a href="#stock">Stock</a></li>
+          <li><a href="#contactos">Contactos</a></li>
+        </ul>
+        <button class="mobile-menu" aria-label="Menu">
+          <i class="fas fa-bars"></i>
+        </button>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero hero-compact">
+      <div class="hero-content">
+        <h1>Electric Move Guarda</h1>
+        <p class="hero-slogan">A confiança de sempre, o futuro de agora!</p>
+        <p>O futuro da mobilidade elétrica na Guarda</p>
+        <p class="hero-coming-soon">ESTÁ PARA BREVE!!</p>
+        <a href="#stock" class="hero-scroll">
+          <i class="fas fa-chevron-down"></i>
+        </a>
+      </div>
+      <div class="hero-overlay"></div>
+    </section>
+
+    <!-- Stock -->
+    <section id="stock" class="stock">
+      <div class="container">
+        <h2 class="section-title">O Nosso Stock</h2>
+        <p class="section-subtitle">
+          <span class="stock-count" id="vehicleCount">Carregando...</span>
+          disponíveis para si
+        </p>
+        <p class="last-update" id="lastUpdate"></p>
+
+        <!-- Filtros -->
+        <div class="stock-filters">
+          <button class="filter-btn active" data-filter="all">Todos</button>
+          <button class="filter-btn" data-filter="tesla">Tesla</button>
+          <button class="filter-btn" data-filter="bmw">BMW</button>
+          <button class="filter-btn" data-filter="mercedes">Mercedes</button>
+          <button class="filter-btn" data-filter="hyundai">Hyundai</button>
+          <button class="filter-btn" data-filter="outros">Outros</button>
+        </div>
+
+        <!-- Grid de Veículos (carregado dinamicamente) -->
+        <div class="vehicles-grid" id="vehiclesGrid">
+          <!-- Loading -->
+          <div class="loading-vehicles">
+            <i class="fas fa-spinner fa-spin"></i>
+            <p>Carregando veículos...</p>
+          </div>
+        </div>
+
+        <!-- Botão Ver Mais -->
+        <div class="stock-cta">
+          <a
+            href="https://jsfeelelectricmove.standvirtual.com/inventory"
+            target="_blank"
+            class="btn btn-primary btn-large"
+          >
+            <i class="fas fa-external-link-alt"></i> Ver Todo o Stock no
+            StandVirtual
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sobre Nós -->
+    <section id="sobre" class="about">
+      <div class="container">
+        <h2 class="section-title">Sobre Nós</h2>
+        <div class="about-content">
+          <div class="about-text">
+            <p>
+              Bem-vindos à <strong>Electric Move Guarda</strong>: O Futuro da
+              Mobilidade Elétrica chegou à mais alta!
+            </p>
+            <p>
+              A Electric Move Guarda é o resultado de uma união improvável entre
+              a tradição de uma amizade de 30 anos e a modernidade da mobilidade
+              elétrica. Surgimos como o braço estratégico da já consolidada
+              <a
+                href="https://jsfeelelectricmove.standvirtual.com"
+                target="_blank"
+                class="partner-link"
+                >Electric Move de Viana do Castelo</a
+              >, trazendo para o interior do país a experiência e o rigor de
+              quem já domina o mercado dos veículos elétricos.
+            </p>
+            <p>
+              Somos liderados por quem não apenas vende carros, mas vive a
+              tecnologia. A nossa gerência une a cumplicidade de uma vida
+              inteira a um propósito comum: oferecer à Guarda uma alternativa de
+              transporte que seja, simultaneamente, inteligente, económica e
+              emocionante.
+            </p>
+            <h3 class="comercializacao-title">Comercialização</h3>
+            <p>
+              A Electric Move Guarda tem um stock de automóveis elétricos com
+              garantia, ao melhor preço do mercado. O seu foco são automóveis
+              semi-novos, adquiridos em stands oficiais dentro da União
+              Europeia.
+            </p>
+            <div class="features">
+              <div class="feature">
+                <i class="fas fa-leaf"></i>
+                <span>Mobilidade Sustentável</span>
+              </div>
+              <div class="feature">
+                <i class="fas fa-shield-alt"></i>
+                <span>Garantia de Qualidade</span>
+              </div>
+              <div class="feature">
+                <i class="fas fa-handshake"></i>
+                <span>Atendimento Personalizado</span>
+              </div>
+            </div>
+          </div>
+          <div class="about-image">
+            <div class="image-placeholder">
+              <i class="fas fa-charging-station"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contactos -->
+    <section id="contactos" class="contact">
+      <div class="container">
+        <h2 class="section-title">Contactos</h2>
+        <p class="section-subtitle">Entre em contacto connosco</p>
+
+        <div class="contact-wrapper">
+          <!-- Parque Auto -->
+          <div class="contact-info-box">
+            <h3>PARQUE AUTO</h3>
+            <p>Estrada Nacional 18, nº19</p>
+            <p>6300-766 Guarda</p>
+          </div>
+
+          <!-- Contactos Info -->
+          <div class="contact-info-box">
+            <h3>CONTACTOS</h3>
+            <p><a href="tel:+351928383863">928 383 863</a></p>
+            <p><a href="tel:+351928383461">928 383 461</a></p>
+            <p class="email-link">
+              <a href="mailto:electricmoveguarda@gmail.com"
+                >electricmoveguarda@gmail.com</a
+              >
+            </p>
+
+            <!-- Redes Sociais -->
+            <div class="social-links-contact">
+              <a
+                href="https://www.facebook.com/ElectricMove.pt/"
+                target="_blank"
+                class="social-link-gold"
+                aria-label="Facebook"
+              >
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a
+                href="https://wa.me/351928383863"
+                target="_blank"
+                class="social-link-gold"
+                aria-label="WhatsApp"
+              >
+                <i class="fab fa-whatsapp"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Mapa -->
+        <div class="map-container">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d1982.579443099281!2d-7.277564206387194!3d40.51706883592648!3m2!1i1024!2i768!4f13.1!5e1!3m2!1spt-BR!2sus!4v1772277454320!5m2!1spt-BR!2sus"
+            width="100%"
+            height="400"
+            style="border: 0; border-radius: 15px"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          >
+          </iframe>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-grid">
+          <!-- Logo e Descrição -->
+          <div class="footer-about">
+            <div class="footer-logo">
+              <img src="Logo2.png" alt="Electric Move Guarda" />
+            </div>
+            <p>
+              O futuro da mobilidade elétrica na Guarda. Veículos elétricos e
+              híbridos de qualidade com garantia.
+            </p>
+          </div>
+
+          <!-- Links Rápidos -->
+          <div class="footer-links">
+            <h4>Links Rápidos</h4>
+            <ul>
+              <li><a href="#inicio">Início</a></li>
+              <li><a href="#sobre">Sobre Nós</a></li>
+              <li><a href="#stock">Stock</a></li>
+              <li><a href="#contactos">Contactos</a></li>
+            </ul>
+          </div>
+
+          <!-- Contactos -->
+          <div class="footer-contact">
+            <h4>Contactos</h4>
+            <ul>
+              <li>
+                <i class="fas fa-map-marker-alt"></i> Estrada Nacional 18, nº19,
+                6300-766 Guarda
+              </li>
+              <li>
+                <i class="fas fa-phone"></i>
+                <a href="tel:+351928383863">928 383 863</a> /
+                <a href="tel:+351928383461">928 383 461</a>
+              </li>
+              <li>
+                <i class="fas fa-envelope"></i>
+                <a href="mailto:electricmoveguarda@gmail.com"
+                  >electricmoveguarda@gmail.com</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <!-- Redes Sociais -->
+          <div class="footer-social-section">
+            <h4>Siga-nos</h4>
+            <div class="footer-social">
+              <a
+                href="https://www.facebook.com/ElectricMove.pt/"
+                target="_blank"
+                aria-label="Facebook"
+              >
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a
+                href="https://wa.me/351928383863"
+                target="_blank"
+                aria-label="WhatsApp"
+              >
+                <i class="fab fa-whatsapp"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Copyright -->
+        <div class="footer-bottom">
+          <p>
+            &copy; 2026 DIPI EV - Egitânia, Lda. Todos os direitos reservados.
+          </p>
+          <p class="footer-partner">
+            Parceiro oficial
+            <a
+              href="https://jsfeelelectricmove.standvirtual.com"
+              target="_blank"
+              >JS Feel Electric Move</a
+            >
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
