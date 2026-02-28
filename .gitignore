@@ -5,5 +5,8 @@ node_modules/
 .DS_Store
 Thumbs.db
 
+# Editor
+.vscode/
+
 # Arquivos locais de desenvolvimento
 *.log
