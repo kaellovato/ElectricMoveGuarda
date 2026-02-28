@@ -135,9 +135,16 @@ async function loadVehicles() {
     }
     data = await localResponse.json();
     console.log("📁 Dados carregados do catálogo");
-    } catch (e) {
-      throw new Error("Não foi possível carregar os veículos");
-    }
+  } catch (e) {
+    console.error("Erro ao carregar veículos:", e);
+    vehiclesGrid.innerHTML = `
+      <div class="error-message">
+        <i class="fas fa-exclamation-circle"></i>
+        <p>Não foi possível carregar os veículos. Por favor, visite diretamente o 
+        <a href="https://jsfeelelectricmove.standvirtual.com/inventory" target="_blank">StandVirtual</a>.</p>
+      </div>
+    `;
+    return;
   }
 
   try {
