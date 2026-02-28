@@ -128,13 +128,14 @@ async function loadVehicles() {
   let data = null;
 
   try {
-    // Carrega os dados do arquivo JSON local
-    const localResponse = await fetch("vehicles.json");
+    // Carrega os dados do arquivo JSON local (cache-bust com timestamp)
+    const cacheBust = new Date().getTime();
+    const localResponse = await fetch(`vehicles.json?v=${cacheBust}`);
     if (!localResponse.ok) {
       throw new Error("Erro ao carregar veículos");
     }
     data = await localResponse.json();
-    console.log("📁 Dados carregados do catálogo");
+    console.log("Dados carregados do catálogo");
   } catch (e) {
     console.error("Erro ao carregar veículos:", e);
     vehiclesGrid.innerHTML = `
