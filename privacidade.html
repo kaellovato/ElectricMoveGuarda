@@ -604,6 +604,112 @@
       </div>
     </footer>
 
+    <!-- Cookie Consent Banner -->
+    <div id="cookieBanner" class="cookie-banner">
+      <div class="cookie-content">
+        <div class="cookie-text">
+          <h3><i class="fas fa-cookie-bite"></i> Utilizamos Cookies</h3>
+          <p>
+            Usamos cookies para melhorar a sua experiência no nosso site. Alguns
+            são essenciais para o funcionamento, enquanto outros nos ajudam a
+            entender como utiliza o site.
+            <a href="privacidade.html"
+              >Saiba mais na nossa Política de Privacidade</a
+            >.
+          </p>
+        </div>
+        <div class="cookie-buttons">
+          <button
+            class="cookie-btn cookie-btn-accept"
+            onclick="acceptAllCookies()"
+          >
+            <i class="fas fa-check"></i> Aceitar Todos
+          </button>
+          <button
+            class="cookie-btn cookie-btn-settings"
+            onclick="openCookieSettings()"
+          >
+            <i class="fas fa-cog"></i> Configurar
+          </button>
+          <button
+            class="cookie-btn cookie-btn-reject"
+            onclick="rejectOptionalCookies()"
+          >
+            Apenas Essenciais
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Cookie Settings Modal -->
+    <div id="cookieModal" class="cookie-modal">
+      <div class="cookie-modal-content">
+        <div class="cookie-modal-header">
+          <h3><i class="fas fa-shield-alt"></i> Configurações de Cookies</h3>
+          <button class="cookie-modal-close" onclick="closeCookieSettings()">
+            <i class="fas fa-times"></i>
+          </button>
+        </div>
+
+        <div class="cookie-option">
+          <div class="cookie-option-header">
+            <h4>Cookies Essenciais</h4>
+            <label class="cookie-toggle">
+              <input type="checkbox" checked disabled />
+              <span class="cookie-toggle-slider"></span>
+            </label>
+          </div>
+          <p>
+            Necessários para o funcionamento básico do site. Não podem ser
+            desativados.
+          </p>
+        </div>
+
+        <div class="cookie-option">
+          <div class="cookie-option-header">
+            <h4>Cookies de Desempenho</h4>
+            <label class="cookie-toggle">
+              <input type="checkbox" id="cookiePerformance" />
+              <span class="cookie-toggle-slider"></span>
+            </label>
+          </div>
+          <p>
+            Ajudam-nos a entender como os visitantes interagem com o site,
+            coletando informações anónimas.
+          </p>
+        </div>
+
+        <div class="cookie-option">
+          <div class="cookie-option-header">
+            <h4>Cookies de Funcionalidade</h4>
+            <label class="cookie-toggle">
+              <input type="checkbox" id="cookieFunctional" />
+              <span class="cookie-toggle-slider"></span>
+            </label>
+          </div>
+          <p>
+            Permitem que o site se lembre das suas preferências e ofereça
+            funcionalidades melhoradas.
+          </p>
+        </div>
+
+        <div class="cookie-modal-footer">
+          <button
+            class="cookie-btn cookie-btn-settings"
+            onclick="closeCookieSettings()"
+          >
+            Cancelar
+          </button>
+          <button
+            class="cookie-btn cookie-btn-accept"
+            onclick="saveCookieSettings()"
+          >
+            Guardar Preferências
+          </button>
+        </div>
+      </div>
+    </div>
+
     <script src="script.js"></script>
     <script src="cookies.js"></script>
 

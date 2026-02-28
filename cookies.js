@@ -242,6 +242,9 @@ function revokeAllCookies() {
   showCookieBanner();
 
   console.log("🗑️ Todos os cookies foram revogados");
+  alert(
+    "Todos os cookies foram revogados com sucesso. O banner de cookies irá aparecer novamente.",
+  );
 }
 
 // Fecha modal ao clicar fora dele
