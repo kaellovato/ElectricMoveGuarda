@@ -213,6 +213,86 @@ body {
   margin-bottom: 15px;
 }
 
+.hero-title-highlight {
+  font-size: 2.8rem !important;
+  font-weight: 800 !important;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #fff;
+  text-shadow:
+    1px 1px 0 #c89020,
+    2px 2px 0 #a07010,
+    3px 3px 0 #7a5008,
+    4px 4px 8px rgba(0, 0, 0, 0.3);
+  line-height: 1.2;
+  margin-bottom: 8px !important;
+  position: relative;
+  display: inline-block;
+  transition:
+    text-shadow 0.3s ease,
+    transform 0.3s ease;
+}
+
+.hero-title-city {
+  display: block;
+  font-size: 4.5rem;
+  font-weight: 900;
+  letter-spacing: 8px;
+  margin-top: 4px;
+  color: #fff;
+  text-shadow:
+    1px 1px 0 #e8b84b,
+    2px 2px 0 #d4a030,
+    3px 3px 0 #c09020,
+    4px 4px 0 #ac8010,
+    5px 5px 0 #987010,
+    6px 6px 0 #846008,
+    7px 7px 0 #705005,
+    8px 8px 0 #5a3f02,
+    9px 9px 12px rgba(0, 0, 0, 0.4),
+    12px 14px 24px rgba(0, 0, 0, 0.3);
+  position: relative;
+  padding-bottom: 15px;
+  transition:
+    text-shadow 0.3s ease,
+    transform 0.3s ease;
+}
+
+/* Mantém o teu separador decorativo */
+.hero-title-city::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 120px;
+  height: 3px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    #fff,
+    var(--primary-color),
+    #fff,
+    transparent
+  );
+  border-radius: 2px;
+}
+
+.hero-title-highlight:hover,
+.hero-title-highlight:hover .hero-title-city {
+  text-shadow:
+    1px 1px 0 #f0c860,
+    2px 2px 0 #e0a838,
+    3px 3px 0 #cc9028,
+    4px 4px 0 #b87818,
+    5px 5px 0 #a06010,
+    6px 6px 0 #8c5008,
+    7px 7px 0 #784205,
+    8px 8px 0 #603202,
+    10px 12px 0 #4a2400,
+    12px 16px 28px rgba(0, 0, 0, 0.5);
+}
+
 .hero-compact .hero-content p {
   font-size: 1.2rem;
   margin-bottom: 15px;
@@ -520,6 +600,7 @@ body {
   font-size: 0.75rem;
   font-weight: 600;
   z-index: 2;
+  display: none;
 }
 
 .vehicle-image {
@@ -770,10 +851,18 @@ body {
 
 .map-container {
   margin-top: 40px;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 15px;
 }
 
 .map-container iframe {
   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+  width: 100%;
+  max-width: 100%;
+  display: block;
+  border-radius: 15px;
 }
 
 /* Legacy contact grid - mantido para compatibilidade */
@@ -1141,6 +1230,22 @@ body {
     margin-bottom: 15px;
   }
 
+  .hero-title-highlight {
+    font-size: 1.8rem !important;
+    letter-spacing: 3px;
+  }
+
+  .hero-title-city {
+    font-size: 3rem;
+    letter-spacing: 5px;
+    padding-bottom: 12px;
+  }
+
+  .hero-title-city::after {
+    width: 80px;
+    height: 2px;
+  }
+
   .hero-content p {
     font-size: 1rem;
     margin-bottom: 12px;
@@ -1284,8 +1389,17 @@ body {
     font-size: 0.95rem;
   }
 
+  .map-container {
+    margin-top: 25px;
+    margin-left: -12px;
+    margin-right: -12px;
+    width: calc(100% + 24px);
+    border-radius: 0;
+  }
+
   .map-container iframe {
     height: 300px;
+    border-radius: 0 !important;
   }
 
   .footer {
@@ -1348,6 +1462,22 @@ body {
   .hero-content h1 {
     font-size: 1.8rem;
     line-height: 1.2;
+  }
+
+  .hero-title-highlight {
+    font-size: 1.5rem !important;
+    letter-spacing: 2px;
+  }
+
+  .hero-title-city {
+    font-size: 2.5rem;
+    letter-spacing: 4px;
+    padding-bottom: 10px;
+  }
+
+  .hero-title-city::after {
+    width: 60px;
+    height: 2px;
   }
 
   .hero-content p {
@@ -1488,7 +1618,7 @@ body {
 
   .map-container iframe {
     height: 250px;
-    border-radius: 10px;
+    border-radius: 0 !important;
   }
 
   .footer-links h4,
@@ -1526,6 +1656,22 @@ body {
 
   .hero-content h1 {
     font-size: 1.5rem;
+  }
+
+  .hero-title-highlight {
+    font-size: 1.2rem !important;
+    letter-spacing: 2px;
+  }
+
+  .hero-title-city {
+    font-size: 2rem;
+    letter-spacing: 3px;
+    padding-bottom: 8px;
+  }
+
+  .hero-title-city::after {
+    width: 50px;
+    height: 2px;
   }
 
   .hero-content p {
