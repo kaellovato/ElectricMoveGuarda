@@ -8,9 +8,7 @@
     "start": "npx http-server -p 8080"
   },
   "dependencies": {
-    "puppeteer": "^21.0.0",
-    "@sparticuz/chromium": "^119.0.0",
-    "puppeteer-core": "^21.0.0"
+    "puppeteer": "^21.0.0"
   },
   "devDependencies": {
     "http-server": "^14.1.1"
