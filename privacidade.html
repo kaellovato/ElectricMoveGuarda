@@ -1,0 +1,647 @@
+<!doctype html>
+<html lang="pt-PT">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex, follow" />
+    <title>Política de Privacidade - Electric Move Guarda</title>
+
+    <!-- Security Headers -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="X-Content-Type-Options" content="nosniff" />
+    <meta name="referrer" content="strict-origin-when-cross-origin" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="
+      default-src 'self';
+      script-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com;
+      style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdnjs.cloudflare.com;
+      font-src 'self' https://fonts.gstatic.com https://cdnjs.cloudflare.com;
+      img-src 'self' data: https: blob:;
+      frame-src 'none';
+      connect-src 'self';
+      frame-ancestors 'self';
+      base-uri 'self';
+      form-action 'self';
+    "
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      .policy-page {
+        padding: 160px 20px 80px;
+        min-height: 100vh;
+        background: var(--background);
+      }
+
+      .policy-container {
+        max-width: 900px;
+        margin: 0 auto;
+        background: var(--white);
+        border-radius: 20px;
+        padding: 50px;
+        box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+      }
+
+      .policy-header {
+        text-align: center;
+        margin-bottom: 40px;
+        padding-bottom: 30px;
+        border-bottom: 2px solid var(--background);
+      }
+
+      .policy-header h1 {
+        font-size: 2.2rem;
+        color: var(--secondary-color);
+        margin-bottom: 20px;
+      }
+
+      .policy-header .last-update {
+        color: var(--text-light);
+        font-size: 0.9rem;
+        margin-top: 10px;
+      }
+
+      .policy-section {
+        margin-bottom: 35px;
+      }
+
+      .policy-section h2 {
+        font-size: 1.4rem;
+        color: var(--primary-color);
+        margin-bottom: 15px;
+        padding-bottom: 10px;
+        border-bottom: 2px solid var(--background);
+      }
+
+      .policy-section h3 {
+        font-size: 1.1rem;
+        color: var(--secondary-color);
+        margin: 20px 0 10px;
+      }
+
+      .policy-section p {
+        color: var(--text-color);
+        line-height: 1.8;
+        margin-bottom: 15px;
+        font-size: 0.95rem;
+      }
+
+      .policy-section ul {
+        list-style: none;
+        margin: 15px 0;
+        padding-left: 0;
+      }
+
+      .policy-section li {
+        position: relative;
+        padding-left: 25px;
+        margin-bottom: 10px;
+        color: var(--text-color);
+        line-height: 1.6;
+        font-size: 0.95rem;
+      }
+
+      .policy-section li::before {
+        content: "\f00c";
+        font-family: "Font Awesome 6 Free";
+        font-weight: 900;
+        position: absolute;
+        left: 0;
+        color: var(--primary-color);
+        font-size: 0.8rem;
+      }
+
+      .cookie-table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 20px 0;
+      }
+
+      .cookie-table th,
+      .cookie-table td {
+        padding: 12px 15px;
+        text-align: left;
+        border-bottom: 1px solid var(--background);
+        font-size: 0.9rem;
+      }
+
+      .cookie-table th {
+        background: var(--gradient);
+        color: var(--white);
+        font-weight: 600;
+      }
+
+      .cookie-table tr:hover {
+        background: var(--background);
+      }
+
+      .contact-box {
+        background: var(--background);
+        padding: 25px;
+        border-radius: 12px;
+        margin-top: 20px;
+      }
+
+      .contact-box p {
+        margin-bottom: 8px;
+      }
+
+      .contact-box a {
+        color: var(--primary-color);
+        text-decoration: none;
+      }
+
+      .contact-box a:hover {
+        text-decoration: underline;
+      }
+
+      .btn-cookie-settings {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        background: var(--gradient);
+        color: var(--secondary-color);
+        padding: 12px 25px;
+        border-radius: 30px;
+        text-decoration: none;
+        font-weight: 600;
+        cursor: pointer;
+        border: none;
+        font-size: 0.95rem;
+        margin-top: 15px;
+        transition: all 0.3s ease;
+      }
+
+      .btn-cookie-settings:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 5px 20px rgba(196, 150, 43, 0.4);
+      }
+
+      .back-link {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        color: var(--primary-color);
+        text-decoration: none;
+        font-weight: 500;
+        margin-bottom: 20px;
+        transition: color 0.3s;
+      }
+
+      .back-link:hover {
+        color: var(--primary-dark);
+      }
+
+      @media (max-width: 768px) {
+        .policy-page {
+          padding: 120px 15px 60px;
+        }
+
+        .policy-container {
+          padding: 30px 20px;
+        }
+
+        .policy-header h1 {
+          font-size: 1.6rem;
+        }
+
+        .policy-section h2 {
+          font-size: 1.2rem;
+        }
+
+        .cookie-table {
+          font-size: 0.85rem;
+        }
+
+        .cookie-table th,
+        .cookie-table td {
+          padding: 10px 8px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <nav class="nav container">
+        <a href="index.html" class="logo">
+          <img src="Logo2.png" alt="Electric Move Guarda" />
+        </a>
+        <ul class="nav-links">
+          <li><a href="index.html#inicio">Início</a></li>
+          <li><a href="index.html#sobre">Sobre Nós</a></li>
+          <li><a href="index.html#stock">Stock</a></li>
+          <li><a href="index.html#contactos">Contactos</a></li>
+        </ul>
+        <button class="mobile-menu" aria-label="Menu">
+          <i class="fas fa-bars"></i>
+        </button>
+      </nav>
+    </header>
+
+    <!-- Policy Content -->
+    <main class="policy-page">
+      <div class="policy-container">
+        <a href="index.html" class="back-link">
+          <i class="fas fa-arrow-left"></i> Voltar ao site
+        </a>
+
+        <div class="policy-header">
+          <h1><i class="fas fa-shield-alt"></i> Política de Privacidade</h1>
+          <p class="last-update">Última atualização: 28 de Fevereiro de 2026</p>
+        </div>
+
+        <section class="policy-section">
+          <h2>1. Introdução</h2>
+          <p>
+            A <strong>DIPI EV - Egitânia, Lda.</strong>, proprietária da
+            <strong>Electric Move Guarda</strong>, está comprometida em proteger
+            a privacidade dos seus clientes e visitantes do website. Esta
+            Política de Privacidade explica como recolhemos, utilizamos,
+            armazenamos e protegemos as suas informações pessoais em
+            conformidade com o Regulamento Geral sobre a Proteção de Dados
+            (RGPD/GDPR) da União Europeia.
+          </p>
+          <p>
+            Ao utilizar o nosso website, concorda com as práticas descritas
+            nesta política.
+          </p>
+        </section>
+
+        <section class="policy-section">
+          <h2>2. Responsável pelo Tratamento de Dados</h2>
+          <div class="contact-box">
+            <p><strong>Entidade:</strong> DIPI EV - Egitânia, Lda.</p>
+            <p><strong>Nome Comercial:</strong> Electric Move Guarda</p>
+            <p>
+              <strong>Morada:</strong> Estrada Nacional 18, nº19, 6300-766
+              Guarda, Portugal
+            </p>
+            <p>
+              <strong>Email:</strong>
+              <a href="mailto:electricmoveguarda@gmail.com"
+                >electricmoveguarda@gmail.com</a
+              >
+            </p>
+            <p>
+              <strong>Telefone:</strong>
+              <a href="tel:+351928383863">928 383 863</a>
+            </p>
+          </div>
+        </section>
+
+        <section class="policy-section">
+          <h2>3. Dados Pessoais que Recolhemos</h2>
+          <p>Podemos recolher os seguintes tipos de informação:</p>
+          <ul>
+            <li>
+              <strong>Dados de contacto:</strong> Nome, email, número de
+              telefone (quando nos contacta)
+            </li>
+            <li>
+              <strong>Dados de navegação:</strong> Endereço IP, tipo de browser,
+              páginas visitadas, tempo de permanência
+            </li>
+            <li>
+              <strong>Dados de cookies:</strong> Preferências de navegação e
+              consentimento de cookies
+            </li>
+          </ul>
+        </section>
+
+        <section class="policy-section">
+          <h2>4. Finalidades do Tratamento</h2>
+          <p>Utilizamos os seus dados pessoais para:</p>
+          <ul>
+            <li>
+              Responder às suas questões e pedidos de informação sobre veículos
+            </li>
+            <li>
+              Fornecer informações sobre os nossos serviços e stock de veículos
+            </li>
+            <li>Melhorar a experiência de utilização do website</li>
+            <li>Cumprir obrigações legais e regulamentares</li>
+            <li>
+              Enviar comunicações de marketing (apenas com o seu consentimento
+              expresso)
+            </li>
+          </ul>
+        </section>
+
+        <section class="policy-section">
+          <h2>5. Base Legal para o Tratamento</h2>
+          <p>O tratamento dos seus dados baseia-se em:</p>
+          <ul>
+            <li>
+              <strong>Consentimento:</strong> Quando aceita cookies ou subscreve
+              newsletters
+            </li>
+            <li>
+              <strong>Interesse legítimo:</strong> Para melhorar os nossos
+              serviços e segurança do website
+            </li>
+            <li>
+              <strong>Execução de contrato:</strong> Quando solicita informações
+              sobre veículos ou serviços
+            </li>
+            <li>
+              <strong>Obrigação legal:</strong> Para cumprir requisitos legais
+              aplicáveis
+            </li>
+          </ul>
+        </section>
+
+        <section class="policy-section">
+          <h2>6. Política de Cookies</h2>
+          <p>
+            O nosso website utiliza cookies para melhorar a sua experiência de
+            navegação. Um cookie é um pequeno ficheiro de texto que é armazenado
+            no seu dispositivo quando visita o nosso site.
+          </p>
+
+          <h3>6.1. Tipos de Cookies que Utilizamos</h3>
+          <table class="cookie-table">
+            <thead>
+              <tr>
+                <th>Tipo</th>
+                <th>Finalidade</th>
+                <th>Duração</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>Essenciais</strong></td>
+                <td>
+                  Necessários para o funcionamento básico do site (consentimento
+                  de cookies)
+                </td>
+                <td>1 ano</td>
+              </tr>
+              <tr>
+                <td><strong>Desempenho</strong></td>
+                <td>
+                  Análise de como os visitantes utilizam o site (estatísticas
+                  anónimas)
+                </td>
+                <td>2 anos</td>
+              </tr>
+              <tr>
+                <td><strong>Funcionais</strong></td>
+                <td>
+                  Guardar preferências do utilizador para funcionalidades
+                  melhoradas
+                </td>
+                <td>1 ano</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <h3>6.2. Gerir as suas Preferências de Cookies</h3>
+          <p>
+            Pode gerir ou retirar o seu consentimento para cookies a qualquer
+            momento. Pode também configurar o seu navegador para bloquear
+            cookies, embora isso possa afetar algumas funcionalidades do site.
+          </p>
+          <button class="btn-cookie-settings" onclick="reopenCookieSettings()">
+            <i class="fas fa-cog"></i> Configurar Cookies
+          </button>
+          <button
+            class="btn-cookie-settings"
+            onclick="revokeAllCookies()"
+            style="margin-left: 10px; background: #e74c3c"
+          >
+            <i class="fas fa-trash"></i> Revogar Cookies
+          </button>
+        </section>
+
+        <section class="policy-section">
+          <h2>7. Partilha de Dados</h2>
+          <p>
+            Não vendemos, alugamos ou partilhamos os seus dados pessoais com
+            terceiros para fins de marketing. Podemos partilhar informações com:
+          </p>
+          <ul>
+            <li>
+              <strong>Parceiros comerciais:</strong> JS Feel Electric Move
+              (parceiro oficial)
+            </li>
+            <li>
+              <strong>Prestadores de serviços:</strong> Alojamento web (GitHub
+              Pages) sob acordos de proteção de dados
+            </li>
+            <li><strong>Autoridades legais:</strong> Quando exigido por lei</li>
+          </ul>
+        </section>
+
+        <section class="policy-section">
+          <h2>8. Segurança dos Dados</h2>
+          <p>
+            Implementamos medidas técnicas e organizacionais adequadas para
+            proteger os seus dados:
+          </p>
+          <ul>
+            <li>Encriptação SSL/TLS em todas as comunicações</li>
+            <li>Proteção contra ataques XSS e CSRF</li>
+            <li>Headers de segurança HTTP (HSTS, CSP, X-Frame-Options)</li>
+            <li>Acesso restrito aos dados apenas a pessoal autorizado</li>
+          </ul>
+        </section>
+
+        <section class="policy-section">
+          <h2>9. Os Seus Direitos (RGPD)</h2>
+          <p>De acordo com o RGPD, tem os seguintes direitos:</p>
+          <ul>
+            <li>
+              <strong>Acesso:</strong> Solicitar uma cópia dos seus dados
+              pessoais
+            </li>
+            <li>
+              <strong>Retificação:</strong> Corrigir dados incorretos ou
+              incompletos
+            </li>
+            <li>
+              <strong>Apagamento:</strong> Solicitar a eliminação dos seus dados
+              ("direito ao esquecimento")
+            </li>
+            <li>
+              <strong>Portabilidade:</strong> Receber os seus dados em formato
+              estruturado
+            </li>
+            <li>
+              <strong>Oposição:</strong> Opor-se ao tratamento dos seus dados
+            </li>
+            <li>
+              <strong>Limitação:</strong> Solicitar a restrição do tratamento
+            </li>
+            <li>
+              <strong>Retirar consentimento:</strong> A qualquer momento, sem
+              afetar tratamentos anteriores
+            </li>
+          </ul>
+          <p>
+            Para exercer qualquer destes direitos, contacte-nos através do email
+            <a href="mailto:electricmoveguarda@gmail.com"
+              >electricmoveguarda@gmail.com</a
+            >.
+          </p>
+        </section>
+
+        <section class="policy-section">
+          <h2>10. Período de Conservação</h2>
+          <p>
+            Conservamos os seus dados apenas pelo tempo necessário para as
+            finalidades descritas nesta política ou conforme exigido por lei.
+            Dados de navegação são armazenados por até 2 anos pelo nosso
+            provedor de alojamento para fins de segurança.
+          </p>
+        </section>
+
+        <section class="policy-section">
+          <h2>11. Links para Websites Externos</h2>
+          <p>
+            O nosso site pode conter links para websites externos (StandVirtual,
+            Facebook, WhatsApp). Não somos responsáveis pelas práticas de
+            privacidade desses sites. Recomendamos que leia as políticas de
+            privacidade de cada site que visitar.
+          </p>
+        </section>
+
+        <section class="policy-section">
+          <h2>12. Alterações a esta Política</h2>
+          <p>
+            Reservamo-nos o direito de atualizar esta Política de Privacidade a
+            qualquer momento. Quaisquer alterações serão publicadas nesta página
+            com a nova data de atualização. Recomendamos que reveja esta
+            política periodicamente.
+          </p>
+        </section>
+
+        <section class="policy-section">
+          <h2>13. Contactos e Reclamações</h2>
+          <p>
+            Se tiver questões sobre esta política ou o tratamento dos seus
+            dados, contacte-nos:
+          </p>
+          <div class="contact-box">
+            <p>
+              <strong>Email:</strong>
+              <a href="mailto:electricmoveguarda@gmail.com"
+                >electricmoveguarda@gmail.com</a
+              >
+            </p>
+            <p>
+              <strong>Telefone:</strong>
+              <a href="tel:+351928383863">928 383 863</a>
+            </p>
+            <p>
+              <strong>Morada:</strong> Estrada Nacional 18, nº19, 6300-766
+              Guarda
+            </p>
+          </div>
+          <p style="margin-top: 20px">
+            Se considerar que os seus direitos foram violados, pode apresentar
+            uma reclamação junto da
+            <strong>Comissão Nacional de Proteção de Dados (CNPD)</strong>:
+            <a
+              href="https://www.cnpd.pt"
+              target="_blank"
+              rel="noopener noreferrer"
+              >www.cnpd.pt</a
+            >
+          </p>
+        </section>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-bottom" style="border-top: none; padding-top: 0">
+          <p>
+            &copy; 2026 DIPI EV - Egitânia, Lda. Todos os direitos reservados.
+          </p>
+          <p class="footer-partner">
+            Parceiro oficial
+            <a
+              href="https://jsfeelelectricmove.standvirtual.com"
+              target="_blank"
+              >JS Feel Electric Move</a
+            >
+          </p>
+          <p
+            style="
+              margin-top: 15px;
+              font-size: 0.8rem;
+              color: rgba(255, 255, 255, 0.5);
+            "
+          >
+            Desenvolvido por
+            <a
+              href="https://kaellovato.pt"
+              target="_blank"
+              rel="noopener noreferrer"
+              style="
+                color: var(--primary-color);
+                text-decoration: none;
+                font-weight: 500;
+              "
+              >Kael Barbosa Lovato</a
+            >
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="cookies.js"></script>
+
+    <!-- Botão Flutuante de Ajuda -->
+    <div class="help-fab-container">
+      <div class="help-fab-menu" id="helpFabMenu">
+        <a
+          href="https://wa.me/351928383863"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="help-fab-item whatsapp"
+        >
+          <i class="fab fa-whatsapp"></i>
+          <span>WhatsApp</span>
+        </a>
+        <a href="tel:+351928383863" class="help-fab-item phone">
+          <i class="fas fa-phone-alt"></i>
+          <span>Ligar</span>
+        </a>
+        <a
+          href="mailto:electricmoveguarda@gmail.com"
+          class="help-fab-item email"
+        >
+          <i class="fas fa-envelope"></i>
+          <span>Email</span>
+        </a>
+        <a href="index.html" class="help-fab-item privacy">
+          <i class="fas fa-home"></i>
+          <span>Início</span>
+        </a>
+        <button class="help-fab-item cookies" onclick="reopenCookieSettings()">
+          <i class="fas fa-cookie-bite"></i>
+          <span>Cookies</span>
+        </button>
+      </div>
+      <button class="help-fab-button" id="helpFabButton" aria-label="Ajuda">
+        <i class="fas fa-question" id="helpFabIcon"></i>
+      </button>
+    </div>
+  </body>
+</html>

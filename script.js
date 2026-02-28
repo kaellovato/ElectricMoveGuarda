@@ -119,7 +119,7 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 
-// Function to load vehicles - tenta API em tempo real, senão usa JSON local
+// Function to load vehicles - carrega do JSON local (atualizado via GitHub Actions)
 async function loadVehicles() {
   const vehiclesGrid = document.getElementById("vehiclesGrid");
   const vehicleCount = document.getElementById("vehicleCount");
@@ -128,25 +128,13 @@ async function loadVehicles() {
   let data = null;
 
   try {
-    // Primeiro tenta buscar em tempo real (funciona no Netlify)
-    const liveResponse = await fetch("/.netlify/functions/get-vehicles");
-    if (liveResponse.ok) {
-      data = await liveResponse.json();
-      console.log("✅ Dados carregados em tempo real do StandVirtual");
+    // Carrega os dados do arquivo JSON local
+    const localResponse = await fetch("vehicles.json");
+    if (!localResponse.ok) {
+      throw new Error("Erro ao carregar veículos");
     }
-  } catch (e) {
-    console.log("⚠️ API não disponível, usando dados locais");
-  }
-
-  // Se não conseguiu da API, usa o JSON local
-  if (!data) {
-    try {
-      const localResponse = await fetch("vehicles.json");
-      if (!localResponse.ok) {
-        throw new Error("Erro ao carregar veículos");
-      }
-      data = await localResponse.json();
-      console.log("📁 Dados carregados do arquivo local");
+    data = await localResponse.json();
+    console.log("📁 Dados carregados do catálogo");
     } catch (e) {
       throw new Error("Não foi possível carregar os veículos");
     }
@@ -241,3 +229,60 @@ function createVehicleCard(vehicle) {
 
   return card;
 }
+
+// ========================================
+// BOTÃO FLUTUANTE DE AJUDA (FAB)
+// ========================================
+document.addEventListener("DOMContentLoaded", function () {
+  const fabButton = document.getElementById("helpFabButton");
+  const fabMenu = document.getElementById("helpFabMenu");
+  const fabIcon = document.getElementById("helpFabIcon");
+
+  if (fabButton && fabMenu) {
+    // Toggle do menu ao clicar no botão
+    fabButton.addEventListener("click", function (e) {
+      e.stopPropagation();
+      fabButton.classList.toggle("active");
+      fabMenu.classList.toggle("show");
+
+      // Mudar ícone
+      if (fabButton.classList.contains("active")) {
+        fabIcon.classList.remove("fa-question");
+        fabIcon.classList.add("fa-times");
+      } else {
+        fabIcon.classList.remove("fa-times");
+        fabIcon.classList.add("fa-question");
+      }
+    });
+
+    // Fechar menu ao clicar fora
+    document.addEventListener("click", function (e) {
+      if (!fabButton.contains(e.target) && !fabMenu.contains(e.target)) {
+        fabButton.classList.remove("active");
+        fabMenu.classList.remove("show");
+        fabIcon.classList.remove("fa-times");
+        fabIcon.classList.add("fa-question");
+      }
+    });
+
+    // Fechar menu ao pressionar Escape
+    document.addEventListener("keydown", function (e) {
+      if (e.key === "Escape" && fabMenu.classList.contains("show")) {
+        fabButton.classList.remove("active");
+        fabMenu.classList.remove("show");
+        fabIcon.classList.remove("fa-times");
+        fabIcon.classList.add("fa-question");
+      }
+    });
+
+    // Fechar menu ao clicar em um item (exceto cookies que tem seu próprio handler)
+    fabMenu.querySelectorAll(".help-fab-item:not(.cookies)").forEach((item) => {
+      item.addEventListener("click", function () {
+        fabButton.classList.remove("active");
+        fabMenu.classList.remove("show");
+        fabIcon.classList.remove("fa-times");
+        fabIcon.classList.add("fa-question");
+      });
+    });
+  }
+});

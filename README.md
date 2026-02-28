@@ -1,103 +1,127 @@
 # Electric Move Guarda - Sistema de Catálogo Dinâmico
 
-Este site possui um sistema de catálogo que pode ser atualizado automaticamente a partir do StandVirtual.
+Site profissional com catálogo dinâmico de veículos elétricos, sistema de cookies em conformidade com RGPD/GDPR, e atualização automática via GitHub Actions.
+
+## 🚗 Funcionalidades
+
+- ✅ **Catálogo dinâmico** - Atualizado automaticamente do StandVirtual
+- ✅ **Atualização semanal automática** - Via GitHub Actions (segundas-feiras às 6h)
+- ✅ **Responsivo** - Otimizado para desktop, tablet e mobile
+- ✅ **RGPD/GDPR** - Banner de cookies e política de privacidade
+- ✅ **Segurança** - Headers de segurança (HSTS, CSP, XSS Protection)
+- ✅ **SEO** - Meta tags, Open Graph, Schema.org
 
 ## 📁 Estrutura do Projeto
 
 ```
 ElectricMove/
 ├── index.html               # Página principal
+├── privacidade.html         # Política de privacidade
 ├── styles.css               # Estilos do site
-├── script.js                # JavaScript (carrega veículos do JSON)
-├── vehicles.json            # Dados dos veículos (gerado pelo scraper)
-├── scraper.js               # Script para atualizar o catálogo
-├── package.json             # Dependências do Node.js
-├── Logo.png                 # Logo da empresa
-├── README.md                # Este arquivo
-├── INSTALAR.bat             # 🟢 Instalação inicial (executar primeiro!)
-├── ATUALIZAR_CATALOGO.bat   # 🔄 Atualizar veículos do StandVirtual
-└── ABRIR_SITE.bat           # 🌐 Abrir site localmente
+├── script.js                # JavaScript principal
+├── cookies.js               # Gestão de cookies (RGPD)
+├── vehicles.json            # Dados dos veículos
+├── scraper.js               # Script de scraping
+├── package.json             # Dependências
+├── sitemap.xml              # Mapa do site para SEO
+├── robots.txt               # Instruções para crawlers
+├── Logo2.png                # Logo da empresa
+├── .github/
+│   └── workflows/
+│       └── update-catalog.yml  # 🔄 Atualização automática semanal
+├── INSTALAR.bat             # Instalação inicial
+├── ATUALIZAR_CATALOGO.bat   # Atualizar manualmente
+└── ABRIR_SITE.bat           # Abrir site local
 ```
 
-## 🚀 Instalação Rápida (Para Iniciantes)
+## 🔄 Atualização Automática (GitHub Actions)
 
-### 1️⃣ Instalar o Node.js
+O catálogo é atualizado **automaticamente todas as segundas-feiras às 6h** (horário de Portugal) via GitHub Actions.
 
-Baixe e instale o Node.js em: https://nodejs.org/
-(Escolha a versão LTS)
+### Como funciona:
 
-### 2️⃣ Executar a Instalação
+1. O workflow executa o scraper.js
+2. Extrai os veículos do StandVirtual
+3. Atualiza o vehicles.json
+4. Faz commit automático se houver mudanças
 
-Dê **duplo clique** no arquivo `INSTALAR.bat`
+### Executar manualmente:
 
-Isso vai instalar tudo automaticamente e fazer a primeira atualização do catálogo.
+1. Vá para o repositório no GitHub
+2. Clique em **Actions** > **Atualizar Catálogo de Veículos**
+3. Clique em **Run workflow**
 
-### 3️⃣ Pronto!
+## 🔒 Segurança Implementada
 
-- Para **atualizar o catálogo**: duplo clique em `ATUALIZAR_CATALOGO.bat`
-- Para **visualizar o site**: duplo clique em `ABRIR_SITE.bat`
+### Headers de Segurança (via meta tags HTML)
 
----
+- **CSP** - Content Security Policy
+- **X-Content-Type-Options** - Previne MIME sniffing
+- **Referrer-Policy** - Controle de referrer
 
-## 🔧 Instalação Manual (Avançado)
+### Cookies (RGPD/GDPR)
+
+- Banner de consentimento de cookies
+- Modal de configuração granular
+- Opção de aceitar/rejeitar cookies
+- Link para revogar cookies a qualquer momento
+- Política de privacidade completa
+
+## 🚀 Instalação Local
+
+### 1️⃣ Pré-requisitos
+
+- Node.js 18+ ([nodejs.org](https://nodejs.org/))
+- Git
+
+### 2️⃣ Instalação Rápida
 
 ```bash
+# Clone o repositório
+git clone https://github.com/SEU_USUARIO/ElectricMove.git
 cd ElectricMove
+
+# Instale dependências
 npm install
-```
 
-### Atualizar o Catálogo
-
-Execute o comando:
-
-```bash
+# Atualize o catálogo
 npm run update
+
+# Abra o site
+npm start
 ```
 
-Este comando irá:
+### 3️⃣ Ou use os arquivos .bat (Windows)
 
-1. Aceder ao StandVirtual
-2. Extrair todos os veículos disponíveis
-3. Guardar as informações no arquivo `vehicles.json`
-4. O site carregará automaticamente os novos dados
+- `INSTALAR.bat` - Instalação inicial
+- `ATUALIZAR_CATALOGO.bat` - Atualizar catálogo
+- `ABRIR_SITE.bat` - Abrir site no browser
 
-## 🔄 Atualização Automática (Opcional)
+## 🌐 Deploy no GitHub Pages
 
-### Windows - Agendador de Tarefas
+1. Faça push do código para o GitHub
+2. Vá em **Settings** > **Pages**
+3. Em "Source", selecione **Deploy from a branch**
+4. Selecione a branch **main** e pasta **/ (root)**
+5. Clique em **Save**
 
-1. Abra o "Agendador de Tarefas"
-2. Crie uma nova tarefa
-3. Defina o gatilho (ex: diariamente às 8h)
-4. Ação: Iniciar programa
-   - Programa: `node`
-   - Argumentos: `scraper.js`
-   - Iniciar em: `C:\Users\kaell\Desktop\ElectricMove`
+O site estará disponível em `https://SEU_USUARIO.github.io/NOME_REPOSITORIO/`
 
-### Linux/Mac - Cron Job
+### Domínio personalizado
 
-Adicione ao crontab (`crontab -e`):
+1. Compre um domínio (ex: electricmoveguarda.pt)
+2. No GitHub: **Settings** > **Pages** > **Custom domain**
+3. Configure os registros DNS:
+   - **A record**: Aponte para os IPs do GitHub Pages
+   - **CNAME**: Aponte `www` para `SEU_USUARIO.github.io`
 
-```bash
-# Atualizar catálogo todos os dias às 8h
-0 8 * * * cd /caminho/para/ElectricMove && node scraper.js
-```
+### Segurança extra com Cloudflare (Recomendado)
 
-## 🌐 Hospedagem
+Para headers de segurança HTTP completos:
 
-### Opção 1: Netlify (Recomendado para sites estáticos)
-
-1. Faça upload da pasta para o GitHub
-2. Conecte o repositório ao Netlify
-3. Configure uma função serverless para executar o scraper
-
-### Opção 2: Vercel
-
-Similar ao Netlify, com suporte a funções serverless
-
-### Opção 3: Servidor próprio
-
-1. Configure um servidor web (Apache, Nginx)
-2. Configure um cron job para executar o scraper periodicamente
+1. Use o Cloudflare como proxy DNS (gratuito)
+2. Configure Page Rules ou Transform Rules para headers adicionais
+3. Ative "Always Use HTTPS" e "Auto Minify"
 
 ## ⚠️ Notas Importantes
 
@@ -105,6 +129,7 @@ Similar ao Netlify, com suporte a funções serverless
 2. **Rate Limiting**: Não execute o scraper com muita frequência para evitar bloqueios
 3. **Imagens**: As imagens são carregadas diretamente do StandVirtual. Se houver problemas de CORS, um ícone será exibido como fallback
 4. **Backup**: Mantenha sempre um backup do `vehicles.json` atualizado
+5. **GitHub Actions**: O catálogo é atualizado automaticamente às segundas-feiras às 6h
 
 ## 🛠️ Testar Localmente
 
@@ -120,5 +145,5 @@ O site estará disponível em `http://localhost:8080`
 
 Para questões sobre o site, contacte:
 
-- Email: info@electricmoveguarda.pt
-- Telefone: +351 000 000 000
+- Email: electricmoveguarda@gmail.com
+- Telefone: +351 928 383 863

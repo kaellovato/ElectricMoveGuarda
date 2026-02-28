@@ -1,0 +1,104 @@
+# Workflow para atualizar automaticamente o catálogo de veículos
+# Executa semanalmente (segundas às 6h da manhã UTC, que é 6h ou 7h em Portugal)
+
+name: 🚗 Atualizar Catálogo de Veículos
+
+on:
+  # Execução automática semanal
+  schedule:
+    - cron: "0 6 * * 1" # Segundas-feiras às 06:00 UTC
+
+  # Permite execução manual
+  workflow_dispatch:
+    inputs:
+      force_update:
+        description: "Forçar atualização mesmo sem mudanças"
+        required: false
+        default: false
+        type: boolean
+
+jobs:
+  update-catalog:
+    name: 📋 Atualizar Catálogo
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📥 Checkout do repositório
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: 📦 Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - name: 🔧 Instalar dependências
+        run: npm ci
+
+      - name: 🌐 Instalar Chromium para Puppeteer
+        run: npx puppeteer browsers install chrome
+
+      - name: 🔍 Executar scraper
+        id: scraper
+        run: |
+          echo "Iniciando scraping..."
+          node scraper.js
+
+          # Verificar se o arquivo foi atualizado
+          if [ -f vehicles.json ]; then
+            echo "✅ Arquivo vehicles.json atualizado"
+            echo "vehicles_updated=true" >> $GITHUB_OUTPUT
+          else
+            echo "❌ Falha ao gerar vehicles.json"
+            echo "vehicles_updated=false" >> $GITHUB_OUTPUT
+            exit 1
+          fi
+        env:
+          PUPPETEER_SKIP_CHROMIUM_DOWNLOAD: false
+
+      - name: 📊 Mostrar estatísticas
+        run: |
+          echo "📊 Estatísticas do catálogo:"
+          cat vehicles.json | head -20
+          echo ""
+          echo "Total de veículos: $(cat vehicles.json | grep -o '"fullTitle"' | wc -l)"
+
+      - name: 🔄 Verificar alterações
+        id: git_status
+        run: |
+          git diff --quiet vehicles.json && echo "changed=false" >> $GITHUB_OUTPUT || echo "changed=true" >> $GITHUB_OUTPUT
+
+      - name: 📤 Commit e Push das alterações
+        if: steps.git_status.outputs.changed == 'true' || github.event.inputs.force_update == 'true'
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "GitHub Actions Bot"
+
+          # Data formatada para o commit
+          DATE=$(TZ='Europe/Lisbon' date '+%d/%m/%Y às %H:%M')
+
+          git add vehicles.json
+          git commit -m "🚗 Catálogo atualizado automaticamente - $DATE"
+          git push
+
+          echo "✅ Alterações enviadas para o repositório"
+
+      - name: ℹ️ Sem alterações
+        if: steps.git_status.outputs.changed == 'false' && github.event.inputs.force_update != 'true'
+        run: |
+          echo "ℹ️ Nenhuma alteração detectada no catálogo"
+          echo "O catálogo já está atualizado"
+
+  # Job opcional para notificação (descomente se quiser usar)
+  # notify:
+  #   name: 📧 Notificar
+  #   needs: update-catalog
+  #   runs-on: ubuntu-latest
+  #   if: failure()
+  #   steps:
+  #     - name: Enviar notificação de erro
+  #       run: |
+  #         echo "Erro na atualização do catálogo"
+  #         # Adicione aqui integração com email, Slack, Discord, etc.

@@ -1,4 +1,4 @@
-# Dependências - serão instaladas automaticamente no Netlify
+# Dependências
 node_modules/
 
 # Arquivos de sistema
@@ -7,4 +7,3 @@ Thumbs.db
 
 # Arquivos locais de desenvolvimento
 *.log
-*.bat
