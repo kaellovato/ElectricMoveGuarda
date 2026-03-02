@@ -1,8 +1,21 @@
 {
-  "lastUpdate": "2026-02-28T16:33:28.523Z",
-  "totalVehicles": 37,
+  "lastUpdate": "2026-03-02T06:53:24.783Z",
+  "totalVehicles": 35,
   "sourceUrl": "https://jsfeelelectricmove.standvirtual.com/inventory",
   "vehicles": [
+    {
+      "brand": "Polestar",
+      "model": "4 Long Range 100 kWh Single Motor",
+      "fullTitle": "Polestar 4 Long Range 100 kWh Single Motor",
+      "price": "48900",
+      "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6InE1N2s4czF3MDJwOTEtU1REVlRMUFQiLCJ3IjpbeyJmbiI6IjZtZ2p3bHA3a2dkYjItU1REVlRMUFQiLCJzIjoiMTYiLCJhIjoiMCIsInAiOiIxMCwtMTAifV19.T7b2gfcJW4_BNY6lMe9diS0mbnTryiWc5c1GKu8RxJ8/image;q=100;s=600x0",
+      "link": "https://www.standvirtual.com/carros/anuncio/polestar-polestar-4-ver-long-range-100-kwh-single-motor-ID8PZ9Go.html",
+      "fuel": "Elétrico",
+      "date": "Junho 2025",
+      "km": "3100",
+      "id": 1,
+      "category": "outros"
+    },
     {
       "brand": "Tesla",
       "model": "Model Y Long Range Dual Motor AWD",
@@ -13,7 +26,7 @@
       "fuel": "Elétrico",
       "date": "Março 2023",
       "km": "118 700",
-      "id": 1,
+      "id": 2,
       "category": "tesla"
     },
     {
@@ -26,8 +39,21 @@
       "fuel": "Elétrico",
       "date": "Junho 2022",
       "km": "18 900",
-      "id": 2,
+      "id": 3,
       "category": "tesla"
+    },
+    {
+      "brand": "Hyundai",
+      "model": "Kauai 39 kWh Premium",
+      "fullTitle": "Hyundai Kauai 39 kWh Premium",
+      "price": "16500",
+      "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6InZoZDV4YzgzandoNi1TVERWVExQVCIsInciOlt7ImZuIjoiNm1nandscDdrZ2RiMi1TVERWVExQVCIsInMiOiIxNiIsImEiOiIwIiwicCI6IjEwLC0xMCJ9XX0.X9Yep1p3vSQq6kTn2vvEd72ONiZWKf-kLxLfWR_PsB8/image;q=100;s=600x0",
+      "link": "https://www.standvirtual.com/carros/anuncio/hyundai-kauai-ver-39-kwh-premium-ID8PYPSP.html",
+      "fuel": "Elétrico",
+      "date": "Junho 2022",
+      "km": "67 500",
+      "id": 4,
+      "category": "hyundai"
     },
     {
       "brand": "MINI",
@@ -39,7 +65,7 @@
       "fuel": "Elétrico",
       "date": "Agosto 2025",
       "km": "5101",
-      "id": 3,
+      "id": 5,
       "category": "outros"
     },
     {
@@ -52,7 +78,7 @@
       "fuel": "Elétrico",
       "date": "Setembro 2022",
       "km": "68 600",
-      "id": 4,
+      "id": 6,
       "category": "hyundai"
     },
     {
@@ -65,7 +91,7 @@
       "fuel": "Elétrico",
       "date": "Janeiro 2022",
       "km": "111 000",
-      "id": 5,
+      "id": 7,
       "category": "outros"
     },
     {
@@ -78,7 +104,7 @@
       "fuel": "Elétrico",
       "date": "Outubro 2023",
       "km": "19 650",
-      "id": 6,
+      "id": 8,
       "category": "outros"
     },
     {
@@ -91,7 +117,7 @@
       "fuel": "Elétrico",
       "date": "Fevereiro 2022",
       "km": "46 400",
-      "id": 7,
+      "id": 9,
       "category": "outros"
     },
     {
@@ -104,7 +130,7 @@
       "fuel": "Elétrico",
       "date": "Fevereiro 2024",
       "km": "51 000",
-      "id": 8,
+      "id": 10,
       "category": "tesla"
     },
     {
@@ -117,7 +143,7 @@
       "fuel": "Elétrico",
       "date": "Junho 2023",
       "km": "55 500",
-      "id": 9,
+      "id": 11,
       "category": "tesla"
     },
     {
@@ -130,7 +156,7 @@
       "fuel": "Elétrico",
       "date": "Outubro 2022",
       "km": "51 000",
-      "id": 10,
+      "id": 12,
       "category": "hyundai"
     },
     {
@@ -143,7 +169,7 @@
       "fuel": "Elétrico",
       "date": "Março 2020",
       "km": "103 000",
-      "id": 11,
+      "id": 13,
       "category": "tesla"
     },
     {
@@ -156,7 +182,7 @@
       "fuel": "Elétrico",
       "date": "Setembro 2020",
       "km": "122 500",
-      "id": 12,
+      "id": 14,
       "category": "tesla"
     },
     {
@@ -169,7 +195,7 @@
       "fuel": "Elétrico",
       "date": "Agosto 2023",
       "km": "19 300",
-      "id": 13,
+      "id": 15,
       "category": "outros"
     },
     {
@@ -182,7 +208,7 @@
       "fuel": "Elétrico",
       "date": "Maio 2021",
       "km": "69 000",
-      "id": 14,
+      "id": 16,
       "category": "outros"
     },
     {
@@ -195,7 +221,7 @@
       "fuel": "Elétrico",
       "date": "Abril 2021",
       "km": "95 000",
-      "id": 15,
+      "id": 17,
       "category": "mercedes"
     },
     {
@@ -208,7 +234,7 @@
       "fuel": "Elétrico",
       "date": "Março 2022",
       "km": "37 821",
-      "id": 16,
+      "id": 18,
       "category": "tesla"
     },
     {
@@ -221,20 +247,20 @@
       "fuel": "Elétrico",
       "date": "Agosto 2022",
       "km": "43 714",
-      "id": 17,
+      "id": 19,
       "category": "hyundai"
     },
     {
       "brand": "Hyundai",
       "model": "Ioniq 5 72,6 kWh",
       "fullTitle": "Hyundai Ioniq 5 72,6 kWh",
-      "price": "26500",
+      "price": "25900",
       "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6InV5and4bWFseHozaDItU1REVlRMUFQiLCJ3IjpbeyJmbiI6IjZtZ2p3bHA3a2dkYjItU1REVlRMUFQiLCJzIjoiMTYiLCJhIjoiMCIsInAiOiIxMCwtMTAifV19.Qf7KaN-etCatxHLvulImyB5_sd9PtE8tLQUgEuKEgIw/image;q=100;s=600x0",
       "link": "https://www.standvirtual.com/carros/anuncio/hyundai-ioniq-5-ver-72-6-kwh-ID8PY5F7.html",
       "fuel": "Elétrico",
       "date": "Junho 2021",
       "km": "56 400",
-      "id": 18,
+      "id": 20,
       "category": "hyundai"
     },
     {
@@ -247,7 +273,7 @@
       "fuel": "Elétrico",
       "date": "Maio 2023",
       "km": "62 000",
-      "id": 19,
+      "id": 21,
       "category": "tesla"
     },
     {
@@ -260,7 +286,7 @@
       "fuel": "Elétrico",
       "date": "Setembro 2022",
       "km": "28 800",
-      "id": 20,
+      "id": 22,
       "category": "tesla"
     },
     {
@@ -273,7 +299,7 @@
       "fuel": "Elétrico",
       "date": "Setembro 2022",
       "km": "46 700",
-      "id": 21,
+      "id": 23,
       "category": "tesla"
     },
     {
@@ -286,7 +312,7 @@
       "fuel": "Elétrico",
       "date": "Abril 2022",
       "km": "68 300",
-      "id": 22,
+      "id": 24,
       "category": "outros"
     },
     {
@@ -299,7 +325,7 @@
       "fuel": "Elétrico",
       "date": "Junho 2021",
       "km": "57 500",
-      "id": 23,
+      "id": 25,
       "category": "outros"
     },
     {
@@ -312,7 +338,7 @@
       "fuel": "Elétrico",
       "date": "Março 2021",
       "km": "133 400",
-      "id": 24,
+      "id": 26,
       "category": "tesla"
     },
     {
@@ -325,7 +351,7 @@
       "fuel": "Elétrico",
       "date": "Dezembro 2022",
       "km": "18 200",
-      "id": 25,
+      "id": 27,
       "category": "tesla"
     },
     {
@@ -338,20 +364,7 @@
       "fuel": "Elétrico",
       "date": "Abril 2025",
       "km": "4650",
-      "id": 26,
-      "category": "outros"
-    },
-    {
-      "brand": "Renault",
-      "model": "Mégane E-Tech EV60 220hp optimum charge Techno",
-      "fullTitle": "Renault Mégane E-Tech EV60 220hp optimum charge Techno",
-      "price": "24900",
-      "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6InJ5OWlnbWd3aDkwOS1TVERWVExQVCIsInciOlt7ImZuIjoiNm1nandscDdrZ2RiMi1TVERWVExQVCIsInMiOiIxNiIsImEiOiIwIiwicCI6IjEwLC0xMCJ9XX0.tNWIYuuxa_GBhipiUQKYPjfHxL_g1UEZi_twrgWO2Do/image;q=100;s=600x0",
-      "link": "https://www.standvirtual.com/carros/anuncio/renault-megane-e-tech-ver-ev60-220hp-optimum-charge-techno-ID8PXqTr.html",
-      "fuel": "Elétrico",
-      "date": "Abril 2023",
-      "km": "57 000",
-      "id": 27,
+      "id": 28,
       "category": "outros"
     },
     {
@@ -364,7 +377,7 @@
       "fuel": "Elétrico",
       "date": "Outubro 2020",
       "km": "69 000",
-      "id": 28,
+      "id": 29,
       "category": "mercedes"
     },
     {
@@ -377,7 +390,7 @@
       "fuel": "Elétrico",
       "date": "Junho 2025",
       "km": "5400",
-      "id": 29,
+      "id": 30,
       "category": "outros"
     },
     {
@@ -390,7 +403,7 @@
       "fuel": "Elétrico",
       "date": "Fevereiro 2025",
       "km": "13 000",
-      "id": 30,
+      "id": 31,
       "category": "outros"
     },
     {
@@ -403,7 +416,7 @@
       "fuel": "Elétrico",
       "date": "Dezembro 2019",
       "km": "22 100",
-      "id": 31,
+      "id": 32,
       "category": "outros"
     },
     {
@@ -416,7 +429,7 @@
       "fuel": "Elétrico",
       "date": "Abril 2020",
       "km": "74 800",
-      "id": 32,
+      "id": 33,
       "category": "bmw"
     },
     {
@@ -429,33 +442,7 @@
       "fuel": "Elétrico",
       "date": "Dezembro 2022",
       "km": "19 300",
-      "id": 33,
-      "category": "outros"
-    },
-    {
-      "brand": "Renault",
-      "model": "Twingo Electric ZEN",
-      "fullTitle": "Renault Twingo Electric ZEN",
-      "price": "12500",
-      "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6Im15NXA5bm05YmhqdTEtU1REVlRMUFQiLCJ3IjpbeyJmbiI6IjZtZ2p3bHA3a2dkYjItU1REVlRMUFQiLCJzIjoiMTYiLCJhIjoiMCIsInAiOiIxMCwtMTAifV19.jZCWkJgOMVBLc2Da8-j4wDWreczdrcr-iidJ_XooSPA/image;q=100;s=600x0",
-      "link": "https://www.standvirtual.com/carros/anuncio/renault-twingo-ver-electric-zen-ID8PWJBr.html",
-      "fuel": "Elétrico",
-      "date": "Abril 2022",
-      "km": "25 800",
       "id": 34,
-      "category": "outros"
-    },
-    {
-      "brand": "VW",
-      "model": "ID.3 Pro Performance Life",
-      "fullTitle": "VW ID.3 Pro Performance Life",
-      "price": "27200",
-      "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6IjZta3FrNzd2a3c1ZDItU1REVlRMUFQiLCJ3IjpbeyJmbiI6IjZtZ2p3bHA3a2dkYjItU1REVlRMUFQiLCJzIjoiMTYiLCJhIjoiMCIsInAiOiIxMCwtMTAifV19.BMXmTz5QK3iCYpDaJ75rSL3v3AHS8Yn8l-mGhBFLwgo/image;q=100;s=600x0",
-      "link": "https://www.standvirtual.com/carros/anuncio/vw-id-3-ver-pro-performance-life-ID8PWGfr.html",
-      "fuel": "Elétrico",
-      "date": "Agosto 2023",
-      "km": "6900",
-      "id": 35,
       "category": "outros"
     },
     {
@@ -468,20 +455,7 @@
       "fuel": "Elétrico",
       "date": "Março 2018",
       "km": "120 000",
-      "id": 36,
-      "category": "hyundai"
-    },
-    {
-      "brand": "Hyundai",
-      "model": "Kauai 48.4 kWh Premium",
-      "fullTitle": "Hyundai Kauai 48.4 kWh Premium",
-      "price": "26990",
-      "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6IjlsdG54aGZpZDBxZDEtU1REVlRMUFQiLCJ3IjpbeyJmbiI6IjZtZ2p3bHA3a2dkYjItU1REVlRMUFQiLCJzIjoiMTYiLCJhIjoiMCIsInAiOiIxMCwtMTAifV19.RGc7B4XFeBcVGoSOPWodU8OOJoqSDQM-WlbltL6y-vo/image;q=100;s=600x0",
-      "link": "https://www.standvirtual.com/carros/anuncio/hyundai-kauai-ver-48-4-kwh-premium-ID8PSixS.html",
-      "fuel": "Elétrico",
-      "date": "Novembro 2023",
-      "km": "32 000",
-      "id": 37,
+      "id": 35,
       "category": "hyundai"
     }
   ]
