@@ -159,31 +159,9 @@
         },
         "openingHoursSpecification": {
           "@type": "OpeningHoursSpecification",
-          "dayOfWeek": [
-            "Monday",
-            "Tuesday",
-            "Wednesday",
-            "Thursday",
-            "Friday",
-            "Saturday"
-          ],
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
           "opens": "09:00",
           "closes": "19:00"
-        },
-        "sameAs": [
-          "https://www.facebook.com/ElectricMove.pt/",
-          "https://jsfeelelectricmove.standvirtual.com"
-        ],
-        "priceRange": "€€€",
-        "paymentAccepted": "Cash, Credit Card, Bank Transfer",
-        "areaServed": {
-          "@type": "GeoCircle",
-          "geoMidpoint": {
-            "@type": "GeoCoordinates",
-            "latitude": "40.517069",
-            "longitude": "-7.277564"
-          },
-          "geoRadius": "100000"
         }
       }
     </script>
@@ -223,46 +201,55 @@
       <div class="hero-overlay"></div>
     </section>
 
-    <!-- Stock -->
+    <!-- Stock (Mensagem de Breve) -->
     <section id="stock" class="stock">
-      <div class="container">
-        <h2 class="section-title">O Nosso Stock</h2>
-        <p class="section-subtitle">
-          <span class="stock-count" id="vehicleCount">Carregando...</span>
-          disponíveis para si
+      <div
+        class="container"
+        style="
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          min-height: 300px;
+        "
+      >
+        <h2
+          class="section-title"
+          style="font-size: 2.5rem; color: #c4962b; text-align: center"
+        >
+          Para <span style="color: #a67d1f">(muito)</span> breve!
+        </h2>
+        <p
+          style="
+            font-size: 1.3rem;
+            color: #444;
+            text-align: center;
+            margin-top: 20px;
+            max-width: 600px;
+          "
+        >
+          O nosso stock estará disponível em breve.<br />Enquanto isso,
+          acompanhe-nos nas redes sociais ou entre em contacto para mais
+          informações.
         </p>
-        <p class="last-update" id="lastUpdate"></p>
-
-        <!-- Filtros -->
-        <div class="stock-filters">
-          <button class="filter-btn active" data-filter="all">Todos</button>
-          <button class="filter-btn" data-filter="tesla">Tesla</button>
-          <button class="filter-btn" data-filter="bmw">BMW</button>
-          <button class="filter-btn" data-filter="mercedes">Mercedes</button>
-          <button class="filter-btn" data-filter="hyundai">Hyundai</button>
-          <button class="filter-btn" data-filter="outros">Outros</button>
-        </div>
-
-        <!-- Grid de Veículos (carregado dinamicamente) -->
-        <div class="vehicles-grid" id="vehiclesGrid">
-          <!-- Loading -->
-          <div class="loading-vehicles">
-            <i class="fas fa-spinner fa-spin"></i>
-            <p>Carregando veículos...</p>
-          </div>
-        </div>
-
-        <!-- Botão Ver Mais -->
-        <div class="stock-cta">
-          <a
-            href="https://jsfeelelectricmove.standvirtual.com/inventory"
-            target="_blank"
-            class="btn btn-primary btn-large"
-          >
-            <i class="fas fa-external-link-alt"></i> Ver Todo o Stock no
-            StandVirtual
-          </a>
-        </div>
+        <a
+          href="https://jsfeelelectricmove.standvirtual.com/inventory"
+          target="_blank"
+          class="btn btn-primary"
+          style="
+            background: #c4962b;
+            color: #fff;
+            padding: 10px 28px;
+            border-radius: 8px;
+            font-size: 1.1rem;
+            text-decoration: none;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+            font-weight: 600;
+            transition: background 0.2s;
+            margin-top: 30px;
+          "
+          >Ver Stock no Standvirtual (Viana do Castelo)</a
+        >
       </div>
     </section>
 
@@ -385,6 +372,26 @@
             referrerpolicy="no-referrer-when-downgrade"
           >
           </iframe>
+          <div style="text-align: center; margin-top: 10px">
+            <a
+              href="https://www.google.com/maps/dir/?api=1&destination=40.517061,-7.277437"
+              target="_blank"
+              rel="noopener"
+              class="btn btn-primary"
+              style="
+                background: #c4962b;
+                color: #fff;
+                padding: 10px 28px;
+                border-radius: 8px;
+                font-size: 1.1rem;
+                text-decoration: none;
+                box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+                font-weight: 600;
+                transition: background 0.2s;
+              "
+              >Ir</a
+            >
+          </div>
         </div>
       </div>
     </section>
