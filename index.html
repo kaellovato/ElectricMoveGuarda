@@ -89,7 +89,7 @@
       style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdnjs.cloudflare.com;
       font-src 'self' https://fonts.gstatic.com https://cdnjs.cloudflare.com;
       img-src 'self' data: https: blob:;
-      frame-src https://www.google.com https://www.google.pt https://www.google.com/maps/embed/ https://maps.google.com;
+      frame-src https://www.google.com https://www.google.pt;
       connect-src 'self' https://*.github.io;
       frame-ancestors 'self';
       base-uri 'self';
@@ -363,14 +363,15 @@
         <!-- Mapa -->
         <div class="map-container">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3037.073282844802!2d-7.279728684606221!3d40.5170610793557!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd3d3f2e2e2e2e2e%3A0x0!2zNDDCsDMxJzAxLjQiTiA3wrAxNic0OC44Ilc!5e0!3m2!1spt-PT!2spt!4v1710000000000!5m2!1spt-PT!2spt"
+            src="https://www.google.com/maps?q=40.517061,-7.277437&z=17&output=embed"
             width="100%"
             height="400"
             style="border: 0"
             allowfullscreen=""
             loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"
-          ></iframe>
+          >
+          </iframe>
           <div style="text-align: center; margin-top: 10px">
             <a
               href="https://www.google.com/maps/dir/?api=1&destination=40.517061,-7.277437"
