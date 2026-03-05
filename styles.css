@@ -59,10 +59,10 @@ body {
 }
 
 .logo img {
-  height: 180px;
+  height: 140px;
   width: auto;
   object-fit: contain;
-  max-width: 320px;
+  max-width: 240px;
 }
 
 .nav-links {
@@ -1452,7 +1452,7 @@ body {
   }
 
   .logo img {
-    height: 70px;
+    height: 100px;
   }
 
   .hero.hero-compact {
