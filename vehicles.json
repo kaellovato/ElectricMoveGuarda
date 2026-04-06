@@ -1,8 +1,125 @@
 {
-  "lastUpdate": "2026-03-30T07:22:30.825Z",
-  "totalVehicles": 47,
+  "lastUpdate": "2026-04-06T07:24:50.495Z",
+  "totalVehicles": 46,
   "sourceUrl": "https://jsfeelelectricmove.standvirtual.com/inventory",
   "vehicles": [
+    {
+      "brand": "Tesla",
+      "model": "Model 3 Long Range RWD",
+      "fullTitle": "Tesla Model 3 Long Range RWD",
+      "price": "31900",
+      "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6IjlxemM4aTIyZDhlODMtU1REVlRMUFQiLCJ3IjpbeyJmbiI6IjZtZ2p3bHA3a2dkYjItU1REVlRMUFQiLCJzIjoiMTYiLCJhIjoiMCIsInAiOiIxMCwtMTAifV19.9sHq9WS3tX2coeSDwzDLJf6kPi5Czmn90jtcDjYiP9E/image;q=100;s=600x0",
+      "link": "https://www.standvirtual.com/carros/anuncio/tesla-model-3-ver-long-range-rwd-ID8PZV7W.html",
+      "fuel": "Elétrico",
+      "date": "Agosto 2023",
+      "km": "54 500",
+      "id": 1,
+      "category": "tesla"
+    },
+    {
+      "brand": "Kia",
+      "model": "EV6 77,4-kWh",
+      "fullTitle": "Kia EV6 77,4-kWh",
+      "price": "27500",
+      "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6Inp5cGxzdmQza24zbjItU1REVlRMUFQiLCJ3IjpbeyJmbiI6IjZtZ2p3bHA3a2dkYjItU1REVlRMUFQiLCJzIjoiMTYiLCJhIjoiMCIsInAiOiIxMCwtMTAifV19.yxjLisaWbaZd3RD7r0ksFjuwMAaDA1YymNUzKjYJ-QY/image;q=100;s=600x0",
+      "link": "https://www.standvirtual.com/carros/anuncio/kia-ev6-ver-77-4-kwh-ID8PZWUu.html",
+      "fuel": "Elétrico",
+      "date": "Março 2023",
+      "km": "74 000",
+      "id": 2,
+      "category": "outros"
+    },
+    {
+      "brand": "Peugeot",
+      "model": "e-208 Allure",
+      "fullTitle": "Peugeot e-208 Allure",
+      "price": "16500",
+      "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6ImxubDJ5cW96a3NnZjMtU1REVlRMUFQiLCJ3IjpbeyJmbiI6IjZtZ2p3bHA3a2dkYjItU1REVlRMUFQiLCJzIjoiMTYiLCJhIjoiMCIsInAiOiIxMCwtMTAifV19.ckcoOLTBiPCoWTtUHh_sYdiGTT8tHPOaOP1AhMlvBOk/image;q=100;s=600x0",
+      "link": "https://www.standvirtual.com/carros/anuncio/peugeot-e-208-ver-elektromotor-136-allure-ID8PZWUs.html",
+      "fuel": "Elétrico",
+      "date": "Setembro 2022",
+      "km": "30 200",
+      "id": 3,
+      "category": "outros"
+    },
+    {
+      "brand": "Hyundai",
+      "model": "Kauai 64 kWh Vanguard+TMS",
+      "fullTitle": "Hyundai Kauai 64 kWh Vanguard+TMS",
+      "price": "22500",
+      "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6IjVidGdwYTIyaWttZTItU1REVlRMUFQiLCJ3IjpbeyJmbiI6IjZtZ2p3bHA3a2dkYjItU1REVlRMUFQiLCJzIjoiMTYiLCJhIjoiMCIsInAiOiIxMCwtMTAifV19.EgCYN7ny1Yag2b-u4wD68rL3eNvNYiB4Zrk-PChSrEI/image;q=100;s=600x0",
+      "link": "https://www.standvirtual.com/carros/anuncio/hyundai-kauai-ver-64-kwh-vanguardplustms-ID8PZWUj.html",
+      "fuel": "Elétrico",
+      "date": "Dezembro 2022",
+      "km": "71 685",
+      "id": 4,
+      "category": "hyundai"
+    },
+    {
+      "brand": "Hyundai",
+      "model": "Kauai 39 kWh Vanguard+TMS",
+      "fullTitle": "Hyundai Kauai 39 kWh Vanguard+TMS",
+      "price": "20900",
+      "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6InU2MzI4a2NoM2gydTMtU1REVlRMUFQiLCJ3IjpbeyJmbiI6IjZtZ2p3bHA3a2dkYjItU1REVlRMUFQiLCJzIjoiMTYiLCJhIjoiMCIsInAiOiIxMCwtMTAifV19.6wtGkZBGR7t1Cp_1jr6_Non6MLHzUHZF0oBrkhcd_mk/image;q=100;s=600x0",
+      "link": "https://www.standvirtual.com/carros/anuncio/hyundai-kauai-ver-39-kwh-vanguardplustms-ID8PZWU6.html",
+      "fuel": "Elétrico",
+      "date": "Fevereiro 2023",
+      "km": "7200",
+      "id": 5,
+      "category": "hyundai"
+    },
+    {
+      "brand": "Hyundai",
+      "model": "Kauai 39 kWh Premium",
+      "fullTitle": "Hyundai Kauai 39 kWh Premium",
+      "price": "20500",
+      "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6InczcXltejdmYTE1OTMtU1REVlRMUFQiLCJ3IjpbeyJmbiI6IjZtZ2p3bHA3a2dkYjItU1REVlRMUFQiLCJzIjoiMTYiLCJhIjoiMCIsInAiOiIxMCwtMTAifV19.TPtW4EH6rN0Cp5XNupNL2_E7diwZrq6MWmWjzkO1bmM/image;q=100;s=600x0",
+      "link": "https://www.standvirtual.com/carros/anuncio/hyundai-kauai-ver-39-kwh-premium-ID8PZWU1.html",
+      "fuel": "Elétrico",
+      "date": "Fevereiro 2023",
+      "km": "14 999",
+      "id": 6,
+      "category": "hyundai"
+    },
+    {
+      "brand": "Peugeot",
+      "model": "e-Expert 75 kWh Semi-Vidrado Long",
+      "fullTitle": "Peugeot e-Expert 75 kWh Semi-Vidrado Long",
+      "price": "19900",
+      "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6ImhvcWtuZ3M0b21iOTEtU1REVlRMUFQiLCJ3IjpbeyJmbiI6IjZtZ2p3bHA3a2dkYjItU1REVlRMUFQiLCJzIjoiMTYiLCJhIjoiMCIsInAiOiIxMCwtMTAifV19.gqRm2mOdMxurHsJDDK7TX9FuJOZ_fvBQgssy0uL-hFs/image;q=100;s=600x0",
+      "link": "https://www.standvirtual.com/carros/anuncio/peugeot-e-expert-ver-75-kwh-semi-vidrado-long-ID8PZWxF.html",
+      "fuel": "Elétrico",
+      "date": "Outubro 2021",
+      "km": "58 300",
+      "id": 7,
+      "category": "outros"
+    },
+    {
+      "brand": "MG",
+      "model": "MG4 51 kWh Standard",
+      "fullTitle": "MG MG4 51 kWh Standard",
+      "price": "18499",
+      "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6ImFvN2hqcms1OHdnaC1TVERWVExQVCIsInciOlt7ImZuIjoiNm1nandscDdrZ2RiMi1TVERWVExQVCIsInMiOiIxNiIsImEiOiIwIiwicCI6IjEwLC0xMCJ9XX0.Ap3qimi81x3a0K55mNQEZXLcts0YpA4pEtcLotJ41xw/image;q=100;s=600x0",
+      "link": "https://www.standvirtual.com/carros/anuncio/mg-mg4-ver-51-kwh-standard-ID8PZWwE.html",
+      "fuel": "Elétrico",
+      "date": "Janeiro 2023",
+      "km": "12 486",
+      "id": 8,
+      "category": "outros"
+    },
+    {
+      "brand": "Citroën",
+      "model": "e-C4 50 kWh Feel",
+      "fullTitle": "Citroën e-C4 50 kWh Feel",
+      "price": "17900",
+      "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6ImtleGRzMmJ4aHE4cDItU1REVlRMUFQiLCJ3IjpbeyJmbiI6IjZtZ2p3bHA3a2dkYjItU1REVlRMUFQiLCJzIjoiMTYiLCJhIjoiMCIsInAiOiIxMCwtMTAifV19.NCO0KaJ7GZT1UqVd08Y-WzPfXRccy1Ix9mKqL51CU3w/image;q=100;s=600x0",
+      "link": "https://www.standvirtual.com/carros/anuncio/citroen-e-c4-ver-50-kwh-feel-ID8PZWtB.html",
+      "fuel": "Elétrico",
+      "date": "Fevereiro 2022",
+      "km": "70 300",
+      "id": 9,
+      "category": "outros"
+    },
     {
       "brand": "MINI",
       "model": "3 Portas Cooper SE",
@@ -13,7 +130,7 @@
       "fuel": "Elétrico",
       "date": "Março 2021",
       "km": "48 700",
-      "id": 1,
+      "id": 10,
       "category": "outros"
     },
     {
@@ -26,20 +143,7 @@
       "fuel": "Elétrico",
       "date": "Janeiro 2023",
       "km": "73 400",
-      "id": 2,
-      "category": "outros"
-    },
-    {
-      "brand": "Fiat",
-      "model": "500e 3 + 1 42 kWh",
-      "fullTitle": "Fiat 500e 3 + 1 42 kWh",
-      "price": "16900",
-      "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6InprZTg2cG9ha3VjbjItU1REVlRMUFQiLCJ3IjpbeyJmbiI6IjZtZ2p3bHA3a2dkYjItU1REVlRMUFQiLCJzIjoiMTYiLCJhIjoiMCIsInAiOiIxMCwtMTAifV19.kc5LZuneDqSA7CTa_Fw0RYnqWJwBQj3NoEE8yG7j_fQ/image;q=100;s=600x0",
-      "link": "https://www.standvirtual.com/carros/anuncio/fiat-500-threeplusone-ver-42-kwh-ID8PZTCC.html",
-      "fuel": "Elétrico",
-      "date": "Dezembro 2022",
-      "km": "39 100",
-      "id": 3,
+      "id": 11,
       "category": "outros"
     },
     {
@@ -52,124 +156,98 @@
       "fuel": "Elétrico",
       "date": "Março 2023",
       "km": "73 853",
-      "id": 4,
+      "id": 12,
       "category": "tesla"
     },
     {
-      "brand": "Hyundai",
-      "model": "Kauai 39 kWh Premium",
-      "fullTitle": "Hyundai Kauai 39 kWh Premium",
-      "price": "18700",
-      "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6Imx2Y2xodnZxb3c0bTEtU1REVlRMUFQiLCJ3IjpbeyJmbiI6IjZtZ2p3bHA3a2dkYjItU1REVlRMUFQiLCJzIjoiMTYiLCJhIjoiMCIsInAiOiIxMCwtMTAifV19.eBYD7_OT8Z4YJbRVCEM8qQKp_nKQT60R2SP6l1vIdTs/image;q=100;s=600x0",
-      "link": "https://www.standvirtual.com/carros/anuncio/hyundai-kauai-ver-39-kwh-premium-ID8PZTCs.html",
+      "brand": "Mercedes-Benz",
+      "model": "EQA 250+",
+      "fullTitle": "Mercedes-Benz EQA 250+",
+      "price": "33900",
+      "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6ImxscDdvdmxyemJhNjMtU1REVlRMUFQiLCJ3IjpbeyJmbiI6IjZtZ2p3bHA3a2dkYjItU1REVlRMUFQiLCJzIjoiMTYiLCJhIjoiMCIsInAiOiIxMCwtMTAifV19.OW8yaSyzXpxMmI5mtrck3ksCPdTbJ2gFy5NG0HpQRj8/image;q=100;s=600x0",
+      "link": "https://www.standvirtual.com/carros/anuncio/mercedes-benz-eqa-ver-250plus-ID8PZR7T.html",
       "fuel": "Elétrico",
-      "date": "Fevereiro 2022",
-      "km": "39 199",
-      "id": 5,
-      "category": "hyundai"
+      "date": "Novembro 2022",
+      "km": "49 750",
+      "id": 13,
+      "category": "mercedes"
     },
     {
-      "brand": "BMW",
-      "model": "iX3 Impressive",
-      "fullTitle": "BMW iX3 Impressive",
-      "price": "33500",
-      "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6InBxc3AzaDJnOHV2ZjItU1REVlRMUFQiLCJ3IjpbeyJmbiI6IjZtZ2p3bHA3a2dkYjItU1REVlRMUFQiLCJzIjoiMTYiLCJhIjoiMCIsInAiOiIxMCwtMTAifV19.IX_22IonC4OuiTMLiUflN8k2XlEwHC__AJQjWAy60jk/image;q=100;s=600x0",
-      "link": "https://www.standvirtual.com/carros/anuncio/bmw-ix3-ver-impressive-ID8PZTCo.html",
+      "brand": "Nissan",
+      "model": "Leaf e+ Tekna ProPilot",
+      "fullTitle": "Nissan Leaf e+ Tekna ProPilot",
+      "price": "16990",
+      "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6InNzcG96cjdlMXNwYjItU1REVlRMUFQiLCJ3IjpbeyJmbiI6IjZtZ2p3bHA3a2dkYjItU1REVlRMUFQiLCJzIjoiMTYiLCJhIjoiMCIsInAiOiIxMCwtMTAifV19.ccjAdxa3aNFh0l-YYwBIuEUrEE7gmrO9CFI5vS56WeA/image;q=100;s=600x0",
+      "link": "https://www.standvirtual.com/carros/anuncio/nissan-leaf-ver-eplus-tekna-propilot-ID8PZR7A.html",
       "fuel": "Elétrico",
-      "date": "Julho 2021",
-      "km": "94 793",
-      "id": 6,
-      "category": "bmw"
-    },
-    {
-      "brand": "MG",
-      "model": "MG4 64 kWh Comfort",
-      "fullTitle": "MG MG4 64 kWh Comfort",
-      "price": "22500",
-      "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6Imt2MmVsOW5qbnZ5aDEtU1REVlRMUFQiLCJ3IjpbeyJmbiI6IjZtZ2p3bHA3a2dkYjItU1REVlRMUFQiLCJzIjoiMTYiLCJhIjoiMCIsInAiOiIxMCwtMTAifV19.V-13qFdWpA2Rl0qm81gQfbLYVUQ_FHLk3FUfCC53j68/image;q=100;s=600x0",
-      "link": "https://www.standvirtual.com/carros/anuncio/mg-mg4-ver-64-kwh-comfort-ID8PZTzW.html",
-      "fuel": "Elétrico",
-      "date": "Junho 2023",
-      "km": "14 800",
-      "id": 7,
+      "date": "Outubro 2019",
+      "km": "110 000",
+      "id": 14,
       "category": "outros"
     },
     {
-      "brand": "Kia",
-      "model": "Niro 1.6 GDI PHEV 2WD Aut. Spirit",
-      "fullTitle": "Kia Niro 1.6 GDI PHEV 2WD Aut. Spirit",
-      "price": "16500",
-      "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6Img3ZW5pYmR1YzM4bC1TVERWVExQVCIsInciOlt7ImZuIjoiNm1nandscDdrZ2RiMi1TVERWVExQVCIsInMiOiIxNiIsImEiOiIwIiwicCI6IjEwLC0xMCJ9XX0.JzcrzfuiKLaGgx784SaD_1N119uJjfiYeqYkSbw15wU/image;q=100;s=600x0",
-      "link": "https://www.standvirtual.com/carros/anuncio/kia-niro-ver-1-6-gdi-phev-2wd-aut-spirit-ID8PZS01.html",
-      "fuel": "Híbrido",
-      "date": "Novembro 2019",
-      "km": "128 000",
-      "id": 8,
-      "category": "outros"
+      "brand": "Tesla",
+      "model": "Model 3 Performance Dual Motor AWD",
+      "fullTitle": "Tesla Model 3 Performance Dual Motor AWD",
+      "price": "30900",
+      "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6IjFqejczeTZnYTdnOTMtU1REVlRMUFQiLCJ3IjpbeyJmbiI6IjZtZ2p3bHA3a2dkYjItU1REVlRMUFQiLCJzIjoiMTYiLCJhIjoiMCIsInAiOiIxMCwtMTAifV19.ILT7MEEwmdrEFfy3tXKY9ilQPkYnddZoAg2YhADb0tA/image;q=100;s=600x0",
+      "link": "https://www.standvirtual.com/carros/anuncio/tesla-model-3-ver-performance-dual-motor-awd-ID8PZR7p.html",
+      "fuel": "Elétrico",
+      "date": "Dezembro 2022",
+      "km": "81 500",
+      "id": 15,
+      "category": "tesla"
     },
     {
-      "brand": "VW",
-      "model": "e-Transporter",
-      "fullTitle": "VW e-Transporter",
-      "price": "28990",
-      "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6IjE3OXFqNmt3YjczYjMtU1REVlRMUFQiLCJ3IjpbeyJmbiI6IjZtZ2p3bHA3a2dkYjItU1REVlRMUFQiLCJzIjoiMTYiLCJhIjoiMCIsInAiOiIxMCwtMTAifV19.LYTXnqbGfKvhazElUtnPsePBmppf0SinaYFBte_hZlI/image;q=100;s=600x0",
-      "link": "https://www.standvirtual.com/carros/anuncio/vw-e-transporter-ID8PZRss.html",
+      "brand": "Dacia",
+      "model": "Spring Comfort Plus",
+      "fullTitle": "Dacia Spring Comfort Plus",
+      "price": "12500",
+      "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6ImdyZGsydTc4YWFpZjItU1REVlRMUFQiLCJ3IjpbeyJmbiI6IjZtZ2p3bHA3a2dkYjItU1REVlRMUFQiLCJzIjoiMTYiLCJhIjoiMCIsInAiOiIxMCwtMTAifV19.-MlaLJDSMzZ6khJ6Kvj9NYw3JjIvyCU2YDNJKb7yvdE/image;q=100;s=600x0",
+      "link": "https://www.standvirtual.com/carros/anuncio/dacia-spring-ver-comfort-plus-ID8PZQAx.html",
       "fuel": "Elétrico",
-      "date": "Janeiro 2021",
-      "km": "50 000",
-      "id": 9,
+      "date": "Novembro 2022",
+      "km": "20 737",
+      "id": 16,
       "category": "outros"
     },
     {
       "brand": "Tesla",
       "model": "Model Y RWD",
       "fullTitle": "Tesla Model Y RWD",
-      "price": "32500",
-      "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6InVwam1mN290YnJ6cTItU1REVlRMUFQiLCJ3IjpbeyJmbiI6IjZtZ2p3bHA3a2dkYjItU1REVlRMUFQiLCJzIjoiMTYiLCJhIjoiMCIsInAiOiIxMCwtMTAifV19.rmdd4Z1IZCBTdGb-FLv8PB_B7p_DIwNPEr9FonAY0Kw/image;q=100;s=600x0",
-      "link": "https://www.standvirtual.com/carros/anuncio/tesla-model-y-ver-rwd-ID8PZR9j.html",
+      "price": "33900",
+      "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6Ijdlc2o0aHl4bTZmeDEtU1REVlRMUFQiLCJ3IjpbeyJmbiI6IjZtZ2p3bHA3a2dkYjItU1REVlRMUFQiLCJzIjoiMTYiLCJhIjoiMCIsInAiOiIxMCwtMTAifV19.mcKA5WLR_dsIShN6dD41J2lH_lO590kSikWNoXNrJzs/image;q=100;s=600x0",
+      "link": "https://www.standvirtual.com/carros/anuncio/tesla-model-y-ver-rwd-ID8PZQxV.html",
       "fuel": "Elétrico",
-      "date": "Agosto 2023",
-      "km": "43 000",
-      "id": 10,
+      "date": "Novembro 2024",
+      "km": "65 000",
+      "id": 17,
       "category": "tesla"
     },
     {
-      "brand": "Hyundai",
-      "model": "Kauai 64 kWh Vanguard+TMS",
-      "fullTitle": "Hyundai Kauai 64 kWh Vanguard+TMS",
-      "price": "22500",
-      "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6IjZ3a3IyYmN6N3loeDItU1REVlRMUFQiLCJ3IjpbeyJmbiI6IjZtZ2p3bHA3a2dkYjItU1REVlRMUFQiLCJzIjoiMTYiLCJhIjoiMCIsInAiOiIxMCwtMTAifV19.chXn7CymCkzgbX65cX6Ooko9XRDN-Fu9fhPg2T_9Ymo/image;q=100;s=600x0",
-      "link": "https://www.standvirtual.com/carros/anuncio/hyundai-kauai-ver-64-kwh-vanguardplustms-ID8PZR8x.html",
+      "brand": "Mercedes-Benz",
+      "model": "eVito Tourer",
+      "fullTitle": "Mercedes-Benz eVito Tourer",
+      "price": "31500",
+      "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6Inl3eW1pcXFnZW56MzEtU1REVlRMUFQiLCJ3IjpbeyJmbiI6IjZtZ2p3bHA3a2dkYjItU1REVlRMUFQiLCJzIjoiMTYiLCJhIjoiMCIsInAiOiIxMCwtMTAifV19.WcLAj5ueS8CNdL82h5e-tHVz6PdkvfDpkmCTkzyslSo/image;q=100;s=600x0",
+      "link": "https://www.standvirtual.com/carros/anuncio/mercedes-benz-evito-tourer-ID8PZOSv.html",
       "fuel": "Elétrico",
-      "date": "Dezembro 2022",
-      "km": "77 500",
-      "id": 11,
-      "category": "hyundai"
-    },
-    {
-      "brand": "BMW",
-      "model": "i3 (94 Ah)",
-      "fullTitle": "BMW i3 (94 Ah)",
-      "price": "14990",
-      "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6InM4MTltNmJ4eTliNzItU1REVlRMUFQiLCJ3IjpbeyJmbiI6IjZtZ2p3bHA3a2dkYjItU1REVlRMUFQiLCJzIjoiMTYiLCJhIjoiMCIsInAiOiIxMCwtMTAifV19.tewiF9SuTEq0cjQloiPFjdi30aB2xOWZuCyBKjOAH54/image;q=100;s=600x0",
-      "link": "https://www.standvirtual.com/carros/anuncio/bmw-i3-ver-94-ah-ID8PZR8c.html",
-      "fuel": "Elétrico",
-      "date": "Março 2017",
-      "km": "81 750",
-      "id": 12,
-      "category": "bmw"
+      "date": "Dezembro 2020",
+      "km": "50 000",
+      "id": 18,
+      "category": "mercedes"
     },
     {
       "brand": "BMW",
       "model": "i4 eDrive35 Gran Coupe M Sport",
       "fullTitle": "BMW i4 eDrive35 Gran Coupe M Sport",
       "price": "42900",
-      "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6IjUweGwxc3liM2dwYi1TVERWVExQVCIsInciOlt7ImZuIjoiNm1nandscDdrZ2RiMi1TVERWVExQVCIsInMiOiIxNiIsImEiOiIwIiwicCI6IjEwLC0xMCJ9XX0.OzaonZrovqABJkCW7S3ayO5oEu2ArjeReI_q01V7_Xg/image;q=100;s=600x0",
+      "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6Im8yNDNveGkwMnl4cC1TVERWVExQVCIsInciOlt7ImZuIjoiNm1nandscDdrZ2RiMi1TVERWVExQVCIsInMiOiIxNiIsImEiOiIwIiwicCI6IjEwLC0xMCJ9XX0.tBS_t4qu1AoRCTf7jr0RMr66zueYOG4tQ2Yqq7gARc0/image;q=100;s=600x0",
       "link": "https://www.standvirtual.com/carros/anuncio/bmw-i4-ver-edrive35-gran-coupe-m-sport-ID8PZOSn.html",
       "fuel": "Elétrico",
       "date": "Novembro 2023",
       "km": "40 000",
-      "id": 13,
+      "id": 19,
       "category": "bmw"
     },
     {
@@ -182,20 +260,20 @@
       "fuel": "Elétrico",
       "date": "Fevereiro 2022",
       "km": "95 100",
-      "id": 14,
+      "id": 20,
       "category": "mercedes"
     },
     {
       "brand": "BMW",
       "model": "i4 eDrive40 Gran Coupe M Sport",
       "fullTitle": "BMW i4 eDrive40 Gran Coupe M Sport",
-      "price": "38500",
+      "price": "39900",
       "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6InI5aDBiNmZyYTltczMtU1REVlRMUFQiLCJ3IjpbeyJmbiI6IjZtZ2p3bHA3a2dkYjItU1REVlRMUFQiLCJzIjoiMTYiLCJhIjoiMCIsInAiOiIxMCwtMTAifV19.9wygMnvHiq4Q4vOqA-KdsT04u2jQ3rZaa6weUIa29ks/image;q=100;s=600x0",
       "link": "https://www.standvirtual.com/carros/anuncio/bmw-i4-ver-edrive40-gran-coupe-m-sport-ID8PZOAl.html",
       "fuel": "Elétrico",
       "date": "Julho 2023",
       "km": "78 300",
-      "id": 15,
+      "id": 21,
       "category": "bmw"
     },
     {
@@ -208,7 +286,7 @@
       "fuel": "Elétrico",
       "date": "Novembro 2022",
       "km": "77 000",
-      "id": 16,
+      "id": 22,
       "category": "hyundai"
     },
     {
@@ -221,7 +299,7 @@
       "fuel": "Elétrico",
       "date": "Agosto 2023",
       "km": "46 000",
-      "id": 17,
+      "id": 23,
       "category": "tesla"
     },
     {
@@ -234,7 +312,7 @@
       "fuel": "Elétrico",
       "date": "Março 2022",
       "km": "78 400",
-      "id": 18,
+      "id": 24,
       "category": "tesla"
     },
     {
@@ -247,7 +325,7 @@
       "fuel": "Elétrico",
       "date": "Fevereiro 2023",
       "km": "58 000",
-      "id": 19,
+      "id": 25,
       "category": "hyundai"
     },
     {
@@ -260,7 +338,7 @@
       "fuel": "Elétrico",
       "date": "Março 2025",
       "km": "102 000",
-      "id": 20,
+      "id": 26,
       "category": "tesla"
     },
     {
@@ -273,7 +351,7 @@
       "fuel": "Elétrico",
       "date": "Janeiro 2024",
       "km": "4600",
-      "id": 21,
+      "id": 27,
       "category": "outros"
     },
     {
@@ -286,7 +364,7 @@
       "fuel": "Elétrico",
       "date": "Julho 2023",
       "km": "82 253",
-      "id": 22,
+      "id": 28,
       "category": "outros"
     },
     {
@@ -299,7 +377,7 @@
       "fuel": "Elétrico",
       "date": "Dezembro 2023",
       "km": "56 700",
-      "id": 23,
+      "id": 29,
       "category": "outros"
     },
     {
@@ -312,7 +390,7 @@
       "fuel": "Elétrico",
       "date": "Junho 2025",
       "km": "100",
-      "id": 24,
+      "id": 30,
       "category": "outros"
     },
     {
@@ -325,7 +403,7 @@
       "fuel": "Elétrico",
       "date": "Setembro 2022",
       "km": "68 200",
-      "id": 25,
+      "id": 31,
       "category": "outros"
     },
     {
@@ -338,20 +416,7 @@
       "fuel": "Elétrico",
       "date": "Outubro 2022",
       "km": "57 088",
-      "id": 26,
-      "category": "outros"
-    },
-    {
-      "brand": "Renault",
-      "model": "Mégane E-Tech 220 Comfort Range Iconic",
-      "fullTitle": "Renault Mégane E-Tech 220 Comfort Range Iconic",
-      "price": "24900",
-      "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6ImZjem5wMWh2ZTRieTEtU1REVlRMUFQiLCJ3IjpbeyJmbiI6IjZtZ2p3bHA3a2dkYjItU1REVlRMUFQiLCJzIjoiMTYiLCJhIjoiMCIsInAiOiIxMCwtMTAifV19.revZpLZ8xyQ5nXLvWrq1nlV-D_NsjLmeiG3-OmMqvvE/image;q=100;s=600x0",
-      "link": "https://www.standvirtual.com/carros/anuncio/renault-megane-e-tech-ver-220-comfort-range-iconic-ID8PZbig.html",
-      "fuel": "Elétrico",
-      "date": "Outubro 2022",
-      "km": "58 000",
-      "id": 27,
+      "id": 32,
       "category": "outros"
     },
     {
@@ -364,7 +429,7 @@
       "fuel": "Elétrico",
       "date": "Junho 2022",
       "km": "18 900",
-      "id": 28,
+      "id": 33,
       "category": "tesla"
     },
     {
@@ -377,20 +442,7 @@
       "fuel": "Elétrico",
       "date": "Janeiro 2022",
       "km": "111 000",
-      "id": 29,
-      "category": "outros"
-    },
-    {
-      "brand": "Kia",
-      "model": "e-Niro 64kWh",
-      "fullTitle": "Kia e-Niro 64kWh",
-      "price": "23900",
-      "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6ImRjM3NuazhuZ2ZtajEtU1REVlRMUFQiLCJ3IjpbeyJmbiI6IjZtZ2p3bHA3a2dkYjItU1REVlRMUFQiLCJzIjoiMTYiLCJhIjoiMCIsInAiOiIxMCwtMTAifV19.Gg_4Jhnpmx9HSIdzIjygbf79y2K2cSN60DokKsApVmQ/image;q=100;s=600x0",
-      "link": "https://www.standvirtual.com/carros/anuncio/kia-e-niro-ver-e-niro-64kwh-ID8PYxEs.html",
-      "fuel": "Elétrico",
-      "date": "Fevereiro 2022",
-      "km": "46 400",
-      "id": 30,
+      "id": 34,
       "category": "outros"
     },
     {
@@ -403,7 +455,7 @@
       "fuel": "Elétrico",
       "date": "Setembro 2020",
       "km": "122 500",
-      "id": 31,
+      "id": 35,
       "category": "tesla"
     },
     {
@@ -416,46 +468,7 @@
       "fuel": "Elétrico",
       "date": "Agosto 2023",
       "km": "19 300",
-      "id": 32,
-      "category": "outros"
-    },
-    {
-      "brand": "Smart",
-      "model": "ForFour EQ passion",
-      "fullTitle": "Smart ForFour EQ passion",
-      "price": "11990",
-      "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6Imp5Nngzc3ByODNibTEtU1REVlRMUFQiLCJ3IjpbeyJmbiI6IjZtZ2p3bHA3a2dkYjItU1REVlRMUFQiLCJzIjoiMTYiLCJhIjoiMCIsInAiOiIxMCwtMTAifV19.Dh9tqdVnQouuAwHybXtPkO8kolQwaKjfs4RZ5QMFmzI/image;q=100;s=600x0",
-      "link": "https://www.standvirtual.com/carros/anuncio/smart-forfour-ver-eq-passion-ID8PY77V.html",
-      "fuel": "Elétrico",
-      "date": "Maio 2021",
-      "km": "69 000",
-      "id": 33,
-      "category": "outros"
-    },
-    {
-      "brand": "Mercedes-Benz",
-      "model": "EQC 400 4Matic AMG Line Electric Art",
-      "fullTitle": "Mercedes-Benz EQC 400 4Matic AMG Line Electric Art",
-      "price": "39900",
-      "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6IjFtYWxvcTV5bjhtOTEtU1REVlRMUFQiLCJ3IjpbeyJmbiI6IjZtZ2p3bHA3a2dkYjItU1REVlRMUFQiLCJzIjoiMTYiLCJhIjoiMCIsInAiOiIxMCwtMTAifV19.1Cch04PDMm9VPeTymViY44s1fEqcZ-6OcSbJKbc-CQA/image;q=100;s=600x0",
-      "link": "https://www.standvirtual.com/carros/anuncio/mercedes-benz-eqc-ver-400-4matic-amg-line-electric-art-ID8PY774.html",
-      "fuel": "Elétrico",
-      "date": "Abril 2021",
-      "km": "95 000",
-      "id": 34,
-      "category": "mercedes"
-    },
-    {
-      "brand": "Ford",
-      "model": "Mustang Mach-E Premium",
-      "fullTitle": "Ford Mustang Mach-E Premium",
-      "price": "27900",
-      "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6Ijk3N3hkcXpndjR5MTMtU1REVlRMUFQiLCJ3IjpbeyJmbiI6IjZtZ2p3bHA3a2dkYjItU1REVlRMUFQiLCJzIjoiMTYiLCJhIjoiMCIsInAiOiIxMCwtMTAifV19.fnlYfhXFfHbcDe1ha2MaHUht5fDukF3fHgoZR7id0mo/image;q=100;s=600x0",
-      "link": "https://www.standvirtual.com/carros/anuncio/ford-mustang-mach-e-ver-premium-ID8PY6Vd.html",
-      "fuel": "Elétrico",
-      "date": "Outubro 2023",
-      "km": "111 650",
-      "id": 35,
+      "id": 36,
       "category": "outros"
     },
     {
@@ -468,7 +481,7 @@
       "fuel": "Elétrico",
       "date": "Março 2022",
       "km": "37 821",
-      "id": 36,
+      "id": 37,
       "category": "tesla"
     },
     {
@@ -481,7 +494,7 @@
       "fuel": "Elétrico",
       "date": "Junho 2015",
       "km": "148 000",
-      "id": 37,
+      "id": 38,
       "category": "tesla"
     },
     {
@@ -494,7 +507,7 @@
       "fuel": "Elétrico",
       "date": "Maio 2023",
       "km": "62 000",
-      "id": 38,
+      "id": 39,
       "category": "tesla"
     },
     {
@@ -502,12 +515,12 @@
       "model": "CE 02",
       "fullTitle": "BMW CE 02",
       "price": "6900",
-      "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6InV1ZDN5bnFtaDdwdTEtU1REVlRMUFQiLCJ3IjpbeyJmbiI6IjZtZ2p3bHA3a2dkYjItU1REVlRMUFQiLCJzIjoiMTYiLCJhIjoiMCIsInAiOiIxMCwtMTAifV19.ZtByid7d-vctYaV3n7BcdsOGdyeLwVJKBX95-LYQIaQ/image;q=100;s=600x0",
+      "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6InZlZTA5dXRlc3Rxbi1TVERWVExQVCIsInciOlt7ImZuIjoiNm1nandscDdrZ2RiMi1TVERWVExQVCIsInMiOiIxNiIsImEiOiIwIiwicCI6IjEwLC0xMCJ9XX0.czPJ6MczC30EwA5czGzKZm-SkJJ6vZQtSggLQgdibUM/image;q=100;s=600x0",
       "link": "https://www.standvirtual.com/motos/anuncio/bmw-ce-02-ID8PXEet.html",
       "fuel": "Elétrico",
       "date": "Outubro 2024",
       "km": "500",
-      "id": 39,
+      "id": 40,
       "category": "bmw"
     },
     {
@@ -520,21 +533,8 @@
       "fuel": "Elétrico",
       "date": "Abril 2022",
       "km": "68 300",
-      "id": 40,
-      "category": "outros"
-    },
-    {
-      "brand": "Tesla",
-      "model": "Model 3 Standard Range Plus RWD",
-      "fullTitle": "Tesla Model 3 Standard Range Plus RWD",
-      "price": "22500",
-      "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6Imt0emlxajhjZTJ6dDItU1REVlRMUFQiLCJ3IjpbeyJmbiI6IjZtZ2p3bHA3a2dkYjItU1REVlRMUFQiLCJzIjoiMTYiLCJhIjoiMCIsInAiOiIxMCwtMTAifV19.4SfV3d71eOr0rKyroYnMn4Za5mjPJOMfEQaFaPbGdEo/image;q=100;s=600x0",
-      "link": "https://www.standvirtual.com/carros/anuncio/tesla-model-3-ver-standard-range-plus-rwd-ID8PXBkI.html",
-      "fuel": "Elétrico",
-      "date": "Março 2021",
-      "km": "133 400",
       "id": 41,
-      "category": "tesla"
+      "category": "outros"
     },
     {
       "brand": "SEAT",
@@ -576,19 +576,6 @@
       "category": "outros"
     },
     {
-      "brand": "Renault",
-      "model": "Twingo Electric ZEN",
-      "fullTitle": "Renault Twingo Electric ZEN",
-      "price": "12500",
-      "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6Im15NXA5bm05YmhqdTEtU1REVlRMUFQiLCJ3IjpbeyJmbiI6IjZtZ2p3bHA3a2dkYjItU1REVlRMUFQiLCJzIjoiMTYiLCJhIjoiMCIsInAiOiIxMCwtMTAifV19.jZCWkJgOMVBLc2Da8-j4wDWreczdrcr-iidJ_XooSPA/image;q=100;s=600x0",
-      "link": "https://www.standvirtual.com/carros/anuncio/renault-twingo-ver-electric-zen-ID8PWJBr.html",
-      "fuel": "Elétrico",
-      "date": "Abril 2022",
-      "km": "25 800",
-      "id": 45,
-      "category": "outros"
-    },
-    {
       "brand": "VW",
       "model": "ID.3 Pro Performance Life",
       "fullTitle": "VW ID.3 Pro Performance Life",
@@ -598,7 +585,7 @@
       "fuel": "Elétrico",
       "date": "Agosto 2023",
       "km": "6900",
-      "id": 46,
+      "id": 45,
       "category": "outros"
     },
     {
@@ -611,7 +598,7 @@
       "fuel": "Elétrico",
       "date": "Novembro 2023",
       "km": "32 000",
-      "id": 47,
+      "id": 46,
       "category": "hyundai"
     }
   ]
