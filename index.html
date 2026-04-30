@@ -34,6 +34,19 @@
       content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
     />
     <link rel="canonical" href="https://electricmoveguarda.pt/" />
+    <!-- Remover 'index.html' da URL sem recarregar a página -->
+    <script>
+      (function () {
+        try {
+          if (location.pathname && location.pathname.endsWith('index.html')) {
+            const newPath = location.pathname.replace(/index\.html$/, '') || '/';
+            history.replaceState(null, '', newPath + location.search + location.hash);
+          }
+        } catch (e) {
+          /* falha não crítica: manter a URL original */
+        }
+      })();
+    </script>
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
