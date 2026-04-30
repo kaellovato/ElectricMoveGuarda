@@ -1,0 +1,16 @@
+{
+  "name": "electricmove-guarda",
+  "version": "1.0.0",
+  "description": "Site Electric Move Guarda com catálogo dinâmico",
+  "main": "scraper.js",
+  "scripts": {
+    "update": "node scraper.js",
+    "start": "npx http-server -p 8080"
+  },
+  "dependencies": {
+    "puppeteer": "^24.37.5"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}

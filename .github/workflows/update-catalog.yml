@@ -1,0 +1,88 @@
+# Workflow para atualizar automaticamente o catalogo de veiculos
+# Executa semanalmente (segundas as 6h UTC)
+
+name: Atualizar Catalogo de Veiculos
+
+on:
+  schedule:
+    - cron: "0 6 * * 1"
+  workflow_dispatch:
+    inputs:
+      force_update:
+        description: "Forcar atualizacao mesmo sem mudancas"
+        required: false
+        default: false
+        type: boolean
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  update-catalog:
+    name: Atualizar Catalogo
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout do repositorio
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Instalar dependencias
+        run: |
+          rm -rf node_modules package-lock.json
+          npm install
+
+      - name: Executar scraper
+        id: scraper
+        run: |
+          echo "Iniciando scraping..."
+          node scraper.js
+
+          if [ -f vehicles.json ]; then
+            echo "Arquivo vehicles.json atualizado"
+            echo "vehicles_updated=true" >> $GITHUB_OUTPUT
+          else
+            echo "Falha ao gerar vehicles.json"
+            echo "vehicles_updated=false" >> $GITHUB_OUTPUT
+            exit 1
+          fi
+
+      - name: Mostrar estatisticas
+        run: |
+          echo "Estatisticas do catalogo:"
+          cat vehicles.json | head -20
+          echo ""
+          echo "Total de veiculos: $(cat vehicles.json | grep -o '"fullTitle"' | wc -l)"
+
+      - name: Verificar alteracoes
+        id: git_status
+        run: |
+          git diff --quiet vehicles.json && echo "changed=false" >> $GITHUB_OUTPUT || echo "changed=true" >> $GITHUB_OUTPUT
+
+      - name: Commit e Push das alteracoes
+        if: steps.git_status.outputs.changed == 'true' || github.event.inputs.force_update == 'true'
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "GitHub Actions Bot"
+
+          DATE=$(TZ='Europe/Lisbon' date '+%d/%m/%Y as %H:%M')
+
+          git add vehicles.json
+          git commit -m "Catalogo atualizado automaticamente - $DATE"
+          git push
+
+          echo "Alteracoes enviadas para o repositorio"
+
+      - name: Sem alteracoes
+        if: steps.git_status.outputs.changed == 'false' && github.event.inputs.force_update != 'true'
+        run: |
+          echo "Nenhuma alteracao detectada no catalogo"
+          echo "O catalogo ja esta atualizado"

@@ -1,0 +1,33 @@
+{
+  "lastUpdate": "2026-04-30T22:36:24.715Z",
+  "totalVehicles": 2,
+  "sourceUrl": "https://electricmoveguarda.standvirtual.com/inventory",
+  "vehicles": [
+    {
+      "brand": "VW",
+      "model": "ID.3 Pro Performance Life",
+      "fullTitle": "VW ID.3 Pro Performance Life",
+      "price": "26900",
+      "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6Im5zdXBrbG5oanYzbi1TVERWVExQVCIsInciOlt7ImZuIjoiNm1nandscDdrZ2RiMi1TVERWVExQVCIsInMiOiIxNiIsImEiOiIwIiwicCI6IjEwLC0xMCJ9XX0.KiQqm7vFkx1EQvLO2LI5vB8FO11PADj888Z47AQtmy0/image;q=100;s=600x0",
+      "link": "https://www.standvirtual.com/carros/anuncio/vw-id-3-ver-pro-performance-life-ID8Q0kGp.html",
+      "fuel": "Elétrico",
+      "date": "Agosto 2023",
+      "km": "7500",
+      "id": 1,
+      "category": "outros"
+    },
+    {
+      "brand": "Mercedes-Benz",
+      "model": "EQA 250+ Progressive",
+      "fullTitle": "Mercedes-Benz EQA 250+ Progressive",
+      "price": "33900",
+      "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6InlidHYyMjdxdXdndzItU1REVlRMUFQiLCJ3IjpbeyJmbiI6IjZtZ2p3bHA3a2dkYjItU1REVlRMUFQiLCJzIjoiMTYiLCJhIjoiMCIsInAiOiIxMCwtMTAifV19.5gAoMAgLh4e02SY4XODYI20V-sFoq9Rw-Blo8YNN_ro/image;q=100;s=600x0",
+      "link": "https://www.standvirtual.com/carros/anuncio/mercedes-benz-eqa-ver-250plus-progressive-ID8Q0kG0.html",
+      "fuel": "Elétrico",
+      "date": "Novembro 2022",
+      "km": "49 750",
+      "id": 2,
+      "category": "mercedes"
+    }
+  ]
+}

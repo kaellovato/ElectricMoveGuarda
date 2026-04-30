@@ -1,0 +1,15 @@
+# Robots.txt para Electric Move Guarda
+# https://electricmoveguarda.pt
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://electricmoveguarda.pt/sitemap.xml
+
+# Bloquear pastas que não devem ser indexadas
+Disallow: /.github/
+Disallow: /node_modules/
+
+# Crawl-delay para não sobrecarregar o servidor
+Crawl-delay: 1
