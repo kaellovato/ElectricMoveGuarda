@@ -231,6 +231,19 @@
         }
       }
     </style>
+    <!-- Remover a extensão .html da URL (ex.: /privacidade.html -> /privacidade) -->
+    <script>
+      (function () {
+        try {
+          if (location.pathname && location.pathname.endsWith('.html')) {
+            const newPath = location.pathname.replace(/\.html$/, '') || '/';
+            history.replaceState(null, '', newPath + location.search + location.hash);
+          }
+        } catch (e) {
+          /* não crítico */
+        }
+      })();
+    </script>
   </head>
   <body>
     <!-- Header -->
