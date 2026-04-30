@@ -23,6 +23,9 @@ jobs:
   update-catalog:
     name: Atualizar Catalogo
     runs-on: ubuntu-latest
+    # Forçar actions JavaScript a usar Node.js 24 para evitar avisos de compatibilidade
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
 
     steps:
       - name: Checkout do repositorio
@@ -33,7 +36,8 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: "20"
+          # Instalar Node 24 para que passos subsequentes usem Node 24
+          node-version: "24"
 
       - name: Instalar dependencias
         run: |
