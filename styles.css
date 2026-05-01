@@ -494,6 +494,19 @@ body {
   flex-wrap: wrap;
   font-size: 1rem;
   color: #666;
+  align-items: center;
+}
+
+.stock-info span {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+  text-align: center;
+}
+
+#lastUpdate {
+  overflow-wrap: anywhere;
 }
 
 /* Loading e Error States */
@@ -1321,6 +1334,22 @@ body {
     padding: 60px 0;
   }
 
+  .stock-header {
+    margin-bottom: 35px;
+  }
+
+  .stock-info {
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 14px;
+    font-size: 0.95rem;
+    line-height: 1.4;
+  }
+
+  .stock-info span {
+    width: 100%;
+  }
+
   .stock-card {
     padding: 40px 25px;
   }
@@ -1544,6 +1573,16 @@ body {
     font-size: 1.5rem;
   }
 
+  .stock-header {
+    margin-bottom: 28px;
+  }
+
+  .stock-info {
+    font-size: 0.88rem;
+    gap: 6px;
+    margin-top: 12px;
+  }
+
   .section-subtitle {
     font-size: 0.9rem;
   }
@@ -1554,8 +1593,10 @@ body {
   }
 
   .last-update {
-    font-size: 0.75rem;
-    margin-top: -25px;
+    font-size: 0.82rem;
+    margin-top: 0;
+    padding: 0 8px;
+    line-height: 1.35;
   }
 
   .filter-btn {
@@ -1730,6 +1771,11 @@ body {
 
   .section-title {
     font-size: 1.3rem;
+  }
+
+  .stock-info {
+    font-size: 0.8rem;
+    gap: 5px;
   }
 
   .stock-filters {
