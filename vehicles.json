@@ -1,8 +1,34 @@
 {
-  "lastUpdate": "2026-05-01T00:11:17.848Z",
-  "totalVehicles": 2,
+  "lastUpdate": "2026-05-03T14:18:51.195Z",
+  "totalVehicles": 4,
   "sourceUrl": "https://electricmoveguarda.standvirtual.com/inventory",
   "vehicles": [
+    {
+      "brand": "Tesla",
+      "model": "Model Y RWD",
+      "fullTitle": "Tesla Model Y RWD",
+      "price": "35900",
+      "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6Im5ya242bHhnYzQ0NzEtU1REVlRMUFQiLCJ3IjpbeyJmbiI6IjZtZ2p3bHA3a2dkYjItU1REVlRMUFQiLCJzIjoiMTYiLCJhIjoiMCIsInAiOiIxMCwtMTAifV19.oobMAK7YikXMRsDJ1FsW4Mxu23vo2CjyhFGU5p_jJW8/image;q=100;s=600x0",
+      "link": "https://www.standvirtual.com/carros/anuncio/tesla-model-y-ver-rwd-ID8Q0lsP.html",
+      "fuel": "Elétrico",
+      "date": "Dezembro 2024",
+      "km": "49 000",
+      "id": 1,
+      "category": "tesla"
+    },
+    {
+      "brand": "Hyundai",
+      "model": "Kauai 48.4 kWh Premium",
+      "fullTitle": "Hyundai Kauai 48.4 kWh Premium",
+      "price": "26990",
+      "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6InBsMDNhZGE4YTFqaDItU1REVlRMUFQiLCJ3IjpbeyJmbiI6IjZtZ2p3bHA3a2dkYjItU1REVlRMUFQiLCJzIjoiMTYiLCJhIjoiMCIsInAiOiIxMCwtMTAifV19.dTbbKHBtMuL_CeFGhivUTxMq36gNgIvLHmCQxBUXff4/image;q=100;s=600x0",
+      "link": "https://www.standvirtual.com/carros/anuncio/hyundai-kauai-ver-48-4-kwh-premium-ID8Q0lgy.html",
+      "fuel": "Elétrico",
+      "date": "Julho 2025",
+      "km": "36 000",
+      "id": 2,
+      "category": "hyundai"
+    },
     {
       "brand": "VW",
       "model": "ID.3 Pro Performance Life",
@@ -13,7 +39,7 @@
       "fuel": "Elétrico",
       "date": "Agosto 2023",
       "km": "7500",
-      "id": 1,
+      "id": 3,
       "category": "outros"
     },
     {
@@ -26,7 +52,7 @@
       "fuel": "Elétrico",
       "date": "Novembro 2022",
       "km": "49 750",
-      "id": 2,
+      "id": 4,
       "category": "mercedes"
     }
   ]
