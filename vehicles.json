@@ -1,8 +1,21 @@
 {
-  "lastUpdate": "2026-05-11T09:33:13.909Z",
-  "totalVehicles": 4,
+  "lastUpdate": "2026-05-13T11:08:51.232Z",
+  "totalVehicles": 5,
   "sourceUrl": "https://electricmoveguarda.standvirtual.com/inventory",
   "vehicles": [
+    {
+      "brand": "Tesla",
+      "model": "Model 3 Standard Range Plus RWD",
+      "fullTitle": "Tesla Model 3 Standard Range Plus RWD",
+      "price": "33900",
+      "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6ImI4YWJwOG8xZzJ0eTEtU1REVlRMUFQiLCJ3IjpbeyJmbiI6IjZtZ2p3bHA3a2dkYjItU1REVlRMUFQiLCJzIjoiMTYiLCJhIjoiMCIsInAiOiIxMCwtMTAifV19.SRsQqAK7S3UUoSt3pvowPYpFcdGrmUHzpavG2-_MpC0/image;q=100;s=600x0",
+      "link": "https://www.standvirtual.com/carros/anuncio/tesla-model-3-ver-standard-range-plus-rwd-ID8Q0oas.html",
+      "fuel": "Elétrico",
+      "date": "Novembro 2023",
+      "km": "72 300",
+      "id": 1,
+      "category": "tesla"
+    },
     {
       "brand": "Tesla",
       "model": "Model Y RWD",
@@ -13,7 +26,7 @@
       "fuel": "Elétrico",
       "date": "Dezembro 2024",
       "km": "49 000",
-      "id": 1,
+      "id": 2,
       "category": "tesla"
     },
     {
@@ -26,7 +39,7 @@
       "fuel": "Elétrico",
       "date": "Julho 2025",
       "km": "36 000",
-      "id": 2,
+      "id": 3,
       "category": "hyundai"
     },
     {
@@ -39,7 +52,7 @@
       "fuel": "Elétrico",
       "date": "Agosto 2023",
       "km": "7500",
-      "id": 3,
+      "id": 4,
       "category": "outros"
     },
     {
@@ -47,12 +60,12 @@
       "model": "EQA 250+ Progressive",
       "fullTitle": "Mercedes-Benz EQA 250+ Progressive",
       "price": "33900",
-      "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6InlidHYyMjdxdXdndzItU1REVlRMUFQiLCJ3IjpbeyJmbiI6IjZtZ2p3bHA3a2dkYjItU1REVlRMUFQiLCJzIjoiMTYiLCJhIjoiMCIsInAiOiIxMCwtMTAifV19.5gAoMAgLh4e02SY4XODYI20V-sFoq9Rw-Blo8YNN_ro/image;q=100;s=600x0",
+      "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6IndmMHN6bm82OXhtMjItU1REVlRMUFQiLCJ3IjpbeyJmbiI6IjZtZ2p3bHA3a2dkYjItU1REVlRMUFQiLCJzIjoiMTYiLCJhIjoiMCIsInAiOiIxMCwtMTAifV19.xO9g2eJdLJUCOLo6XtSRecJMYzpWh8w4PnL7AmJ8eEQ/image;q=100;s=600x0",
       "link": "https://www.standvirtual.com/carros/anuncio/mercedes-benz-eqa-ver-250plus-progressive-ID8Q0kG0.html",
       "fuel": "Elétrico",
       "date": "Novembro 2022",
       "km": "49 750",
-      "id": 4,
+      "id": 5,
       "category": "mercedes"
     }
   ]
