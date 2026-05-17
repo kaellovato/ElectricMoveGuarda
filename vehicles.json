@@ -1,8 +1,47 @@
 {
-  "lastUpdate": "2026-05-13T11:08:51.232Z",
-  "totalVehicles": 5,
+  "lastUpdate": "2026-05-17T19:25:42.034Z",
+  "totalVehicles": 7,
   "sourceUrl": "https://electricmoveguarda.standvirtual.com/inventory",
   "vehicles": [
+    {
+      "brand": "Toyota",
+      "model": "bZ4X 71,4 kWh Premium",
+      "fullTitle": "Toyota bZ4X 71,4 kWh Premium",
+      "price": "30750",
+      "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6IjB1d3Zhc3phMTAway1TVERWVExQVCIsInciOlt7ImZuIjoiNm1nandscDdrZ2RiMi1TVERWVExQVCIsInMiOiIxNiIsImEiOiIwIiwicCI6IjEwLC0xMCJ9XX0.KZ0vaev3Agohks5HpeppCOpis7-Z7ceM_4gizgOd2Wk/image;q=100;s=600x0",
+      "link": "https://www.standvirtual.com/carros/anuncio/toyota-bz4x-ver-71-4-kwh-premium-ID8Q0pT1.html",
+      "fuel": "Elétrico",
+      "date": "Outubro 2023",
+      "km": "39 800",
+      "id": 1,
+      "category": "outros"
+    },
+    {
+      "brand": "Tesla",
+      "model": "Model 3 Standard Range Plus RWD",
+      "fullTitle": "Tesla Model 3 Standard Range Plus RWD",
+      "price": "30900",
+      "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6ImxxcjRxNXFheXJsMS1TVERWVExQVCIsInciOlt7ImZuIjoiNm1nandscDdrZ2RiMi1TVERWVExQVCIsInMiOiIxNiIsImEiOiIwIiwicCI6IjEwLC0xMCJ9XX0.ExH_y004QYyp4yLAKoOmHNDr-GwBEOlvflw8_qErZlA/image;q=100;s=600x0",
+      "link": "https://www.standvirtual.com/carros/anuncio/tesla-model-3-ver-standard-range-plus-rwd-ID8Q0pSA.html",
+      "fuel": "Elétrico",
+      "date": "Março 2022",
+      "km": "37 821",
+      "id": 2,
+      "category": "tesla"
+    },
+    {
+      "brand": "Fiat",
+      "model": "500e 42 kWh Icon",
+      "fullTitle": "Fiat 500e 42 kWh Icon",
+      "price": "16900",
+      "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6InJ2dWdpbXNqM29iNzItU1REVlRMUFQiLCJ3IjpbeyJmbiI6IjZtZ2p3bHA3a2dkYjItU1REVlRMUFQiLCJzIjoiMTYiLCJhIjoiMCIsInAiOiIxMCwtMTAifV19.1gFRc6WS6Nez9018YRnxdA2Saeb6524J3lM3kr-O6Jc/image;q=100;s=600x0",
+      "link": "https://www.standvirtual.com/carros/anuncio/fiat-500e-ver-42-kwh-icon-ID8Q0pPZ.html",
+      "fuel": "Elétrico",
+      "date": "Dezembro 2022",
+      "km": "39 100",
+      "id": 3,
+      "category": "outros"
+    },
     {
       "brand": "Tesla",
       "model": "Model 3 Standard Range Plus RWD",
@@ -13,7 +52,7 @@
       "fuel": "Elétrico",
       "date": "Novembro 2023",
       "km": "72 300",
-      "id": 1,
+      "id": 4,
       "category": "tesla"
     },
     {
@@ -21,38 +60,25 @@
       "model": "Model Y RWD",
       "fullTitle": "Tesla Model Y RWD",
       "price": "35900",
-      "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6Im5ya242bHhnYzQ0NzEtU1REVlRMUFQiLCJ3IjpbeyJmbiI6IjZtZ2p3bHA3a2dkYjItU1REVlRMUFQiLCJzIjoiMTYiLCJhIjoiMCIsInAiOiIxMCwtMTAifV19.oobMAK7YikXMRsDJ1FsW4Mxu23vo2CjyhFGU5p_jJW8/image;q=100;s=600x0",
+      "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6ImptaWh5OGc2c211czMtU1REVlRMUFQiLCJ3IjpbeyJmbiI6IjZtZ2p3bHA3a2dkYjItU1REVlRMUFQiLCJzIjoiMTYiLCJhIjoiMCIsInAiOiIxMCwtMTAifV19.TWRKF7T-eFE8xpfKfDa2H4lZ70e4xAl4MNmIMUG0zxk/image;q=100;s=600x0",
       "link": "https://www.standvirtual.com/carros/anuncio/tesla-model-y-ver-rwd-ID8Q0lsP.html",
       "fuel": "Elétrico",
       "date": "Dezembro 2024",
       "km": "49 000",
-      "id": 2,
+      "id": 5,
       "category": "tesla"
-    },
-    {
-      "brand": "Hyundai",
-      "model": "Kauai 48.4 kWh Premium",
-      "fullTitle": "Hyundai Kauai 48.4 kWh Premium",
-      "price": "26990",
-      "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6InBsMDNhZGE4YTFqaDItU1REVlRMUFQiLCJ3IjpbeyJmbiI6IjZtZ2p3bHA3a2dkYjItU1REVlRMUFQiLCJzIjoiMTYiLCJhIjoiMCIsInAiOiIxMCwtMTAifV19.dTbbKHBtMuL_CeFGhivUTxMq36gNgIvLHmCQxBUXff4/image;q=100;s=600x0",
-      "link": "https://www.standvirtual.com/carros/anuncio/hyundai-kauai-ver-48-4-kwh-premium-ID8Q0lgy.html",
-      "fuel": "Elétrico",
-      "date": "Julho 2025",
-      "km": "36 000",
-      "id": 3,
-      "category": "hyundai"
     },
     {
       "brand": "VW",
       "model": "ID.3 Pro Performance Life",
       "fullTitle": "VW ID.3 Pro Performance Life",
       "price": "26900",
-      "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6Im5zdXBrbG5oanYzbi1TVERWVExQVCIsInciOlt7ImZuIjoiNm1nandscDdrZ2RiMi1TVERWVExQVCIsInMiOiIxNiIsImEiOiIwIiwicCI6IjEwLC0xMCJ9XX0.KiQqm7vFkx1EQvLO2LI5vB8FO11PADj888Z47AQtmy0/image;q=100;s=600x0",
+      "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6Ims3eTBjY3F1cnAzNi1TVERWVExQVCIsInciOlt7ImZuIjoiNm1nandscDdrZ2RiMi1TVERWVExQVCIsInMiOiIxNiIsImEiOiIwIiwicCI6IjEwLC0xMCJ9XX0.ctgjcF5mJMDa_GiAWcQbYgFvKMqPisRr3UPl6gPZXpY/image;q=100;s=600x0",
       "link": "https://www.standvirtual.com/carros/anuncio/vw-id-3-ver-pro-performance-life-ID8Q0kGp.html",
       "fuel": "Elétrico",
       "date": "Agosto 2023",
       "km": "7500",
-      "id": 4,
+      "id": 6,
       "category": "outros"
     },
     {
@@ -60,12 +86,12 @@
       "model": "EQA 250+ Progressive",
       "fullTitle": "Mercedes-Benz EQA 250+ Progressive",
       "price": "33900",
-      "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6IndmMHN6bm82OXhtMjItU1REVlRMUFQiLCJ3IjpbeyJmbiI6IjZtZ2p3bHA3a2dkYjItU1REVlRMUFQiLCJzIjoiMTYiLCJhIjoiMCIsInAiOiIxMCwtMTAifV19.xO9g2eJdLJUCOLo6XtSRecJMYzpWh8w4PnL7AmJ8eEQ/image;q=100;s=600x0",
+      "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6IjlmZ2Q4cmhqMWZsOTMtU1REVlRMUFQiLCJ3IjpbeyJmbiI6IjZtZ2p3bHA3a2dkYjItU1REVlRMUFQiLCJzIjoiMTYiLCJhIjoiMCIsInAiOiIxMCwtMTAifV19.q4gfMDWTqTkMc9qn_kBugQSxh_fRMluzBt4u76QVTK8/image;q=100;s=600x0",
       "link": "https://www.standvirtual.com/carros/anuncio/mercedes-benz-eqa-ver-250plus-progressive-ID8Q0kG0.html",
       "fuel": "Elétrico",
       "date": "Novembro 2022",
       "km": "49 750",
-      "id": 5,
+      "id": 7,
       "category": "mercedes"
     }
   ]
