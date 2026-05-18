@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-05-17T19:25:42.034Z",
-  "totalVehicles": 7,
+  "lastUpdate": "2026-05-18T09:53:56.290Z",
+  "totalVehicles": 6,
   "sourceUrl": "https://electricmoveguarda.standvirtual.com/inventory",
   "vehicles": [
     {
@@ -8,7 +8,7 @@
       "model": "bZ4X 71,4 kWh Premium",
       "fullTitle": "Toyota bZ4X 71,4 kWh Premium",
       "price": "30750",
-      "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6IjB1d3Zhc3phMTAway1TVERWVExQVCIsInciOlt7ImZuIjoiNm1nandscDdrZ2RiMi1TVERWVExQVCIsInMiOiIxNiIsImEiOiIwIiwicCI6IjEwLC0xMCJ9XX0.KZ0vaev3Agohks5HpeppCOpis7-Z7ceM_4gizgOd2Wk/image;q=100;s=600x0",
+      "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6Ino5Ynl6cXQ5dTRrcDMtU1REVlRMUFQiLCJ3IjpbeyJmbiI6IjZtZ2p3bHA3a2dkYjItU1REVlRMUFQiLCJzIjoiMTYiLCJhIjoiMCIsInAiOiIxMCwtMTAifV19.fdQ28I498J66EOIAIooVGiBKCFOW3qTJ8m3iCe8xMuY/image;q=100;s=600x0",
       "link": "https://www.standvirtual.com/carros/anuncio/toyota-bz4x-ver-71-4-kwh-premium-ID8Q0pT1.html",
       "fuel": "Elétrico",
       "date": "Outubro 2023",
@@ -56,19 +56,6 @@
       "category": "tesla"
     },
     {
-      "brand": "Tesla",
-      "model": "Model Y RWD",
-      "fullTitle": "Tesla Model Y RWD",
-      "price": "35900",
-      "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6ImptaWh5OGc2c211czMtU1REVlRMUFQiLCJ3IjpbeyJmbiI6IjZtZ2p3bHA3a2dkYjItU1REVlRMUFQiLCJzIjoiMTYiLCJhIjoiMCIsInAiOiIxMCwtMTAifV19.TWRKF7T-eFE8xpfKfDa2H4lZ70e4xAl4MNmIMUG0zxk/image;q=100;s=600x0",
-      "link": "https://www.standvirtual.com/carros/anuncio/tesla-model-y-ver-rwd-ID8Q0lsP.html",
-      "fuel": "Elétrico",
-      "date": "Dezembro 2024",
-      "km": "49 000",
-      "id": 5,
-      "category": "tesla"
-    },
-    {
       "brand": "VW",
       "model": "ID.3 Pro Performance Life",
       "fullTitle": "VW ID.3 Pro Performance Life",
@@ -78,7 +65,7 @@
       "fuel": "Elétrico",
       "date": "Agosto 2023",
       "km": "7500",
-      "id": 6,
+      "id": 5,
       "category": "outros"
     },
     {
@@ -91,7 +78,7 @@
       "fuel": "Elétrico",
       "date": "Novembro 2022",
       "km": "49 750",
-      "id": 7,
+      "id": 6,
       "category": "mercedes"
     }
   ]
