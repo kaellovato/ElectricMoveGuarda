@@ -44,6 +44,9 @@ jobs:
           rm -rf node_modules package-lock.json
           npm install
 
+      - name: Instalar Chrome para Puppeteer
+        run: npx puppeteer browsers install chrome
+
       - name: Executar scraper
         id: scraper
         run: |
