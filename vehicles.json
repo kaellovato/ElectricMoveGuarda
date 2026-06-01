@@ -1,6 +1,6 @@
 {
-  "lastUpdate": "2026-05-25T09:57:44.523Z",
-  "totalVehicles": 5,
+  "lastUpdate": "2026-06-01T20:19:10.415Z",
+  "totalVehicles": 6,
   "sourceUrl": "https://electricmoveguarda.standvirtual.com/inventory",
   "vehicles": [
     {
@@ -8,7 +8,7 @@
       "model": "bZ4X 71,4 kWh Premium",
       "fullTitle": "Toyota bZ4X 71,4 kWh Premium",
       "price": "30750",
-      "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6IjZ2MzhnaXJ6Y3g1czEtU1REVlRMUFQiLCJ3IjpbeyJmbiI6IjZtZ2p3bHA3a2dkYjItU1REVlRMUFQiLCJzIjoiMTYiLCJhIjoiMCIsInAiOiIxMCwtMTAifV19.cxdcINW7wjzUI1EMOsLa1lwujMHgpRJNm96gN9ETpLA/image;q=100;s=600x0",
+      "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6Im1uaTVleXo4c3lrbzItU1REVlRMUFQiLCJ3IjpbeyJmbiI6IjZtZ2p3bHA3a2dkYjItU1REVlRMUFQiLCJzIjoiMTYiLCJhIjoiMCIsInAiOiIxMCwtMTAifV19.bsJ4IQqrOLzP05iS_FPZBZfgw2FsHM_0sSOKqOX9ewg/image;q=100;s=600x0",
       "link": "https://www.standvirtual.com/carros/anuncio/toyota-bz4x-ver-71-4-kwh-premium-ID8Q0pT1.html",
       "fuel": "Elétrico",
       "date": "Outubro 2023",
@@ -21,7 +21,7 @@
       "model": "Model 3 Standard Range Plus RWD",
       "fullTitle": "Tesla Model 3 Standard Range Plus RWD",
       "price": "30900",
-      "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6InBjb2NkcThxOW42Yi1TVERWVExQVCIsInciOlt7ImZuIjoiNm1nandscDdrZ2RiMi1TVERWVExQVCIsInMiOiIxNiIsImEiOiIwIiwicCI6IjEwLC0xMCJ9XX0.PjI3GpF7pdbQhNCi6yZClqqRm3sgvdnFG_0fKRDM9Tc/image;q=100;s=600x0",
+      "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6InJlbXFwMmRhYndmbjItU1REVlRMUFQiLCJ3IjpbeyJmbiI6IjZtZ2p3bHA3a2dkYjItU1REVlRMUFQiLCJzIjoiMTYiLCJhIjoiMCIsInAiOiIxMCwtMTAifV19.aP6M8ts_iRQPwmzyB6uSkhgau_pZO0X4MDtZU5VW0Bk/image;q=100;s=600x0",
       "link": "https://www.standvirtual.com/carros/anuncio/tesla-model-3-ver-standard-range-plus-rwd-ID8Q0pSA.html",
       "fuel": "Elétrico",
       "date": "Março 2022",
@@ -34,7 +34,7 @@
       "model": "Model 3 Standard Range Plus RWD",
       "fullTitle": "Tesla Model 3 Standard Range Plus RWD",
       "price": "33900",
-      "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6ImdsdW1vbDRpMzVlby1TVERWVExQVCIsInciOlt7ImZuIjoiNm1nandscDdrZ2RiMi1TVERWVExQVCIsInMiOiIxNiIsImEiOiIwIiwicCI6IjEwLC0xMCJ9XX0.ylP1XVY6Qvbrjm130ZvSl1XtY8VQtLBmMSSt6GUC9UY/image;q=100;s=600x0",
+      "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6Imhrc3k4YnNjcWUwYzItU1REVlRMUFQiLCJ3IjpbeyJmbiI6IjZtZ2p3bHA3a2dkYjItU1REVlRMUFQiLCJzIjoiMTYiLCJhIjoiMCIsInAiOiIxMCwtMTAifV19.vVvlbRrj0L3CUiFW-8HBGDB_gFKM4Lahb8S73wArN50/image;q=100;s=600x0",
       "link": "https://www.standvirtual.com/carros/anuncio/tesla-model-3-ver-standard-range-plus-rwd-ID8Q0oas.html",
       "fuel": "Elétrico",
       "date": "Novembro 2023",
@@ -43,16 +43,29 @@
       "category": "tesla"
     },
     {
+      "brand": "Tesla",
+      "model": "Model Y RWD",
+      "fullTitle": "Tesla Model Y RWD",
+      "price": "35900",
+      "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6InFlcTJtZDN0bGMwaTItU1REVlRMUFQiLCJ3IjpbeyJmbiI6IjZtZ2p3bHA3a2dkYjItU1REVlRMUFQiLCJzIjoiMTYiLCJhIjoiMCIsInAiOiIxMCwtMTAifV19.iNtU8Or6s6J5YKEFtj1KAP05tramOPJ_z10o6VSVw4E/image;q=100;s=600x0",
+      "link": "https://www.standvirtual.com/carros/anuncio/tesla-model-y-ver-rwd-ID8Q0lsP.html",
+      "fuel": "Elétrico",
+      "date": "Dezembro 2024",
+      "km": "49 000",
+      "id": 4,
+      "category": "tesla"
+    },
+    {
       "brand": "VW",
       "model": "ID.3 Pro Performance Life",
       "fullTitle": "VW ID.3 Pro Performance Life",
       "price": "26900",
-      "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6Ims5emQycXVydjFodDMtU1REVlRMUFQiLCJ3IjpbeyJmbiI6IjZtZ2p3bHA3a2dkYjItU1REVlRMUFQiLCJzIjoiMTYiLCJhIjoiMCIsInAiOiIxMCwtMTAifV19.g7k12fHsjb86HDBlbYkFUkM95QJp-PWkLniIJz4zLRA/image;q=100;s=600x0",
+      "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6ImNuMzh4Y3g1eXRrNTMtU1REVlRMUFQiLCJ3IjpbeyJmbiI6IjZtZ2p3bHA3a2dkYjItU1REVlRMUFQiLCJzIjoiMTYiLCJhIjoiMCIsInAiOiIxMCwtMTAifV19.nFDbEJ6evZjn-hNn16DOWs0tXTEL8uVeP_V7Xb5YIgc/image;q=100;s=600x0",
       "link": "https://www.standvirtual.com/carros/anuncio/vw-id-3-ver-pro-performance-life-ID8Q0kGp.html",
       "fuel": "Elétrico",
       "date": "Agosto 2023",
       "km": "7500",
-      "id": 4,
+      "id": 5,
       "category": "outros"
     },
     {
@@ -60,12 +73,12 @@
       "model": "EQA 250+ Progressive",
       "fullTitle": "Mercedes-Benz EQA 250+ Progressive",
       "price": "33900",
-      "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6ImVlMXk0aDFrM2p2ajEtU1REVlRMUFQiLCJ3IjpbeyJmbiI6IjZtZ2p3bHA3a2dkYjItU1REVlRMUFQiLCJzIjoiMTYiLCJhIjoiMCIsInAiOiIxMCwtMTAifV19.SrfYXWSG3hc_hPLw2bJBp7J5Tf1--RUZzvIjkO9Rq5k/image;q=100;s=600x0",
+      "image": "https://ireland.apollo.olxcdn.com/v1/files/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmbiI6ImQ4dngweW5hZGV2ajItU1REVlRMUFQiLCJ3IjpbeyJmbiI6IjZtZ2p3bHA3a2dkYjItU1REVlRMUFQiLCJzIjoiMTYiLCJhIjoiMCIsInAiOiIxMCwtMTAifV19.Pv5wJQ9UZb8w5Fb36bXhdwvvQrcYdCSU8J6VdXvqYHU/image;q=100;s=600x0",
       "link": "https://www.standvirtual.com/carros/anuncio/mercedes-benz-eqa-ver-250plus-progressive-ID8Q0kG0.html",
       "fuel": "Elétrico",
       "date": "Novembro 2022",
       "km": "49 750",
-      "id": 5,
+      "id": 6,
       "category": "mercedes"
     }
   ]
