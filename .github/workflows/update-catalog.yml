@@ -45,7 +45,9 @@ jobs:
           npm install
 
       - name: Instalar Chrome para Puppeteer
-        run: npx puppeteer browsers install chrome
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y google-chrome-stable
 
       - name: Executar scraper
         id: scraper

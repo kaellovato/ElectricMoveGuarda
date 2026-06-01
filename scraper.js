@@ -14,10 +14,11 @@ const STANDVIRTUAL_URL =
 const OUTPUT_FILE = path.join(__dirname, "vehicles.json");
 
 async function scrapeVehicles() {
-  console.log("🚗 Iniciando scraping do StandVirtual...");
+  console.log("Iniciando scraping do StandVirtual...");
 
   const browser = await puppeteer.launch({
     headless: true,
+    executablePath: process.env.PUPPETEER_EXECUTABLE_PATH || '/usr/bin/google-chrome-stable',
     args: ["--no-sandbox", "--disable-setuid-sandbox"],
   });
 
@@ -39,7 +40,7 @@ async function scrapeVehicles() {
         pageNum === 1
           ? STANDVIRTUAL_URL
           : `${STANDVIRTUAL_URL}?page=${pageNum}`;
-      console.log(`📡 Acessando página ${pageNum}... (${pageUrl})`);
+      console.log(`Acessando página ${pageNum}... (${pageUrl})`);
 
       await page.goto(pageUrl, {
         waitUntil: "networkidle2",
@@ -50,14 +51,14 @@ async function scrapeVehicles() {
       try {
         await page.waitForSelector("article", { timeout: 10000 });
       } catch (e) {
-        console.log(`⚠️ Nenhum artigo encontrado na página ${pageNum}`);
+        console.log(`Nenhum artigo encontrado na página ${pageNum}`);
         break;
       }
 
       // Scroll para carregar todos os veículos da página
       await autoScroll(page);
 
-      console.log(`🔍 Extraindo dados da página ${pageNum}...`);
+      console.log(`Extraindo dados da página ${pageNum}...`);
 
       const vehicles = await page.evaluate(() => {
         const items = [];
@@ -158,14 +159,14 @@ async function scrapeVehicles() {
 
       if (vehicles.length === 0) {
         console.log(
-          `⚠️ Nenhum veículo encontrado na página ${pageNum} - fim da paginação`,
+          `Nenhum veículo encontrado na página ${pageNum} - fim da paginação`,
         );
         break;
       }
 
       allVehicles = allVehicles.concat(vehicles);
       console.log(
-        `✅ Página ${pageNum}: ${vehicles.length} veículos encontrados (Total: ${allVehicles.length})`,
+        `Página ${pageNum}: ${vehicles.length} veículos encontrados (Total: ${allVehicles.length})`,
       );
 
       // Pausa entre páginas
@@ -200,7 +201,7 @@ async function scrapeVehicles() {
     });
 
     console.log(
-      `✅ Total: ${uniqueVehicles.length} veículos únicos encontrados`,
+      `Total: ${uniqueVehicles.length} veículos únicos encontrados`,
     );
 
     // Salvar dados
@@ -212,12 +213,12 @@ async function scrapeVehicles() {
     };
 
     fs.writeFileSync(OUTPUT_FILE, JSON.stringify(data, null, 2), "utf8");
-    console.log(`💾 Dados salvos em ${OUTPUT_FILE}`);
+    console.log(`Dados salvos em ${OUTPUT_FILE}`);
 
     await browser.close();
     return data;
   } catch (error) {
-    console.error("❌ Erro durante scraping:", error.message);
+    console.error("Erro durante scraping:", error.message);
     await browser.close();
     throw error;
   }
@@ -235,7 +236,7 @@ async function autoScroll(page) {
       () => document.querySelectorAll("article").length,
     );
 
-    console.log(`   📊 Artigos carregados: ${currentCount}`);
+    console.log(`   Artigos carregados: ${currentCount}`);
 
     if (currentCount === previousCount) {
       attempts++;
@@ -275,17 +276,17 @@ async function autoScroll(page) {
   const finalCount = await page.evaluate(
     () => document.querySelectorAll("article").length,
   );
-  console.log(`📜 Scroll completo - ${finalCount} artigos carregados`);
+  console.log(`Scroll completo - ${finalCount} artigos carregados`);
 }
 
 // Executar
 scrapeVehicles()
   .then((data) => {
-    console.log("🎉 Scraping concluído com sucesso!");
-    console.log(`📊 Total de veículos: ${data.totalVehicles}`);
-    console.log(`🕐 Última atualização: ${data.lastUpdate}`);
+    console.log("Scraping concluído com sucesso!");
+    console.log(`Total de veículos: ${data.totalVehicles}`);
+    console.log(`Última atualização: ${data.lastUpdate}`);
   })
   .catch((error) => {
-    console.error("💥 Falha no scraping:", error);
+    console.error("Falha no scraping:", error);
     process.exit(1);
   });
